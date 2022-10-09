@@ -151,3 +151,28 @@ We present MATCH, a decentralized middleware for fair matchmaking in peer-to-pee
   code={https://github.com/tribler/trustchain-simulator-pysim},
   abstract={“Big Tech” companies provide digital services used by billions of people. Recent developments, however, have shown that these companies often abuse their unprecedented market dominance for selfish interests. Meanwhile, decentralized applications without central authority are gaining traction. Decentralized applications critically depend on its users working together. Ensuring that users do not consume too many resources without reciprocating is a crucial requirement for the sustainability of such applications. We present ConTrib, a universal mechanism to maintain fairness in decentralized applications by accounting the work performed by peers. In ConTrib, participants maintain a personal ledger with tamper-evident records. A record describes some work performed by a peer and links to other records. Fraud in ConTrib occurs when a peer illegitimately modifies one of the records in its personal ledger. This is detected through the continuous exchange of random records between peers and by verifying the consistency of incoming records against known ones. Our simple fraud detection algorithm is highly scalable, tolerates significant packet loss, and exhibits relatively low fraud detection times. We experimentally show that fraud is detected within seconds and with low bandwidth requirements. To demonstrate the applicability of our work, we deploy ConTrib in the Tribler file-sharing application and successfully address free-riding behaviour. This two-year trial has resulted in over 160 million records, created by more than 94’000 users.},
 }
+
+@inproceedings{rodrigo2021unicon,
+  abbr={DICG},
+  title={UniCon: Universal and Scalable Infrastructure for Digital Asset Management},
+  author={Rodrigo, Pablo and Pouwelse, Johan and {de Vos}, Martijn},
+  booktitle={Proceedings of the 2nd International Workshop on Distributed Infrastructure for Common Good},
+  pages={5--10},
+  year={2021},
+  pdf={unicon.pdf},
+  abstract={Non-Fungible Tokens (NFTs) leverage blockchain technology to certify and transfer ownership of digital assets to individuals. NFTs on the Ethereum blockchain have garnered significant attention recently, with a trading volume of over $2 billion in Q1 2021 only. At the same time, established NFT solutions have low flexibility, limited scalability, and high transaction fees. These deficiencies make them impractical to use at a larger scale to manage digital assets.
+We present UniCon, a universal and scalable infrastructure for digital asset management. The key idea of UniCon is to track asset ownership in a tracking blockchain while making minimal assumptions on the capabilities of this blockchain. UniCon enables the exchange of asset ownership in any digital currency, unlike current NFT platforms. We devise a system architecture and build a prototype of UniCon. We use a scalable distributed ledger that is highly suitable for the tracking of asset ownership. Our prototype enables a decentralized ecosystem to manage and trade assets.}
+}
+
+@inproceedings{nasrulin2022gromit,
+  abbr={DAPPS},
+  booktitle={IEEE International Conference on Decentralized Applications and Infrastructures},
+  title={Gromit: Benchmarking the Performance and Scalability of Blockchain Systems},
+  author={Nasrulin, Bulat and {de Vos}, Martijn and Ishmaev, Georgy and Pouwelse, Johan},
+  year={2022},
+  code={https://github.com/tribler/anydex-core/tree/match-middleware20},
+  pdf={Vos2021_Article_XChangeAUniversalMechanismForA.pdf},
+  abstract={The growing number of implementations of blockchain systems stands in stark contrast with still limited research on a systematic comparison of performance characteristics of these solutions. Such research is crucial for evaluating fundamental trade-offs introduced by novel consensus protocols and their implementations. These performance limitations are commonly analyzed with ad-hoc benchmarking frameworks focused on the consensus algorithm of blockchain systems. However, comparative evaluations of design choices require macro-benchmarks for uniform and comprehensive performance evaluations of blockchains at the system level rather than performance metrics of isolated components. To address this research gap, we implement Gromit, a generic framework for analyzing blockchain systems. Gromit treats each system under test as a transaction fabric where clients issue transactions to validators. We use Gromit to conduct the largest blockchain study to date, involving seven representative systems with varying consensus models. We determine the peak performance of these systems with a synthetic workload in terms of transaction throughput and scalability and show that transaction throughput does not scale with the number of validators. We explore how robust the subjected systems are against network delays and reveal that the performance of permissoned blockchain is highly sensitive to network conditions.},
+  pdf={gromit.pdf},
+  code={https://github.com/grimadas/gromit},
+}
