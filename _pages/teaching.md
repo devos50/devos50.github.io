@@ -7,9 +7,13 @@ nav: true
 nav_order: 5
 ---
 
-### CSE3000 - Bachelor Research Project (ongoing)
+### Blockchain Engineering (2022)
 
-For the CSE3000 master course at Delft University of Technology, I'm supervising five BSc students that are working on various aspects related to self-sovereign identity. More information can be found on [this GitHub issue](https://github.com/Tribler/tribler/issues/6050){:target="_blank"}.
+For the Blockchain engineering master course at Delft University of Technology, I supervised two groups with ten students in total that worked on atomic swaps and our digital EuroToken. The project progress, meeting notes, and deliverables can be found [here](https://github.com/Tribler/tribler/issues/6774){:target="_blank"} and [here](https://github.com/Tribler/tribler/issues/6782){:target="_blank"}.
+
+### CSE3000 - Bachelor Research Project (2021)
+
+For the CSE3000 master course at Delft University of Technology, I supervised five BSc students that are working on various aspects related to self-sovereign identity. More information can be found on [this GitHub issue](https://github.com/Tribler/tribler/issues/6050){:target="_blank"}.
 
 ### Blockchain Engineering (2021)
 
