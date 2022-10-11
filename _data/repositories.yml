@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - devos50
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - devos50/vlc-pyqt5-example
+  - tribler/tribler
+  - tribler/py-ipv8
+  - tribler/bami

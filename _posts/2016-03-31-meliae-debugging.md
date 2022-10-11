@@ -3,6 +3,7 @@ layout: post
 title: Finding Python Memory Leaks Using Meliae
 date: 2016-03-31
 comments: true
+tags: Python
 ---
 
 When working on the [Tribler](https://tribler.org) project as part of my master thesis, I was asked to investigate a memory issue. Tribler allows people to share content in a fully decentralized way and implements a Tor-like protocol that can be used to download content anonymously. By proxying traffic through other nodes, the anonymity of Tor is obtained. You can start a Python script that allows your computer to become a proxy for other users in the network. However, when running this tool for a longer period (a few days), the memory becomes filled with objects, eventually crashing the program because it runs out of memory.
