@@ -278,6 +278,7 @@ plugins:
   - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
+  - jekyll-target-blank
   - jemoji
 
 # Sitemap settings

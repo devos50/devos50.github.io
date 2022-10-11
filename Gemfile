@@ -24,8 +24,11 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-
     gem 'classifier-reborn'  # used for content categorization during the build
+    gem 'mini_racer'
+    gem 'jekyll-target-blank', '~> 2.0'
+    gem 'unicode_utils'
+    gem 'webrick'
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
