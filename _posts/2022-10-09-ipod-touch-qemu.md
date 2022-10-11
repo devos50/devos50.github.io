@@ -3,6 +3,7 @@ layout: post
 title: Emulating an iPod Touch 1G and iPhoneOS 1.0 using QEMU (Part I)
 date: 2022-10-11
 comments: true
+tags: QEMU
 ---
 
 Around a year ago, I started working on emulating an iPod Touch 1G using the [QEMU emulation software](https://github.com/qemu/qemu). After months of reverse engineering, figuring out the specifications of various hardware components, and countless debugging runs with GDB, I now have a functional emulation of an iPod Touch that includes display rendering and multitouch support. The emulated device runs the first firmware ever released by Apple for the iPod Touch: [iPhoneOS 1.0, build 3A101a](https://ipsw.me/download/iPod1,1/3A101a). The emulator runs iBoot (the bootloader), the XNU kernel and then executes Springboard. Springboard renders the home screen and is responsible for launching other applications such as Safari and the calendar. I haven't made any modifications to the bootloader, the kernel or other binaries being loaded. All source code can be found [in my branch of QEMU](https://github.com/devos50/qemu/tree/ipod_touch_1g). Note: the emulator requires a custom NOR and NAND image (more about that later in this post). I aim to publish another blog post soon with detailed instructions on how to generate these custom images.
