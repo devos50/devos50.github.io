@@ -2,6 +2,7 @@
 layout: post
 title: Finding Python Memory Leaks Using Meliae
 date: 2016-03-31
+comments: true
 ---
 
 When working on the [Tribler](https://tribler.org) project as part of my master thesis, I was asked to investigate a memory issue. Tribler allows people to share content in a fully decentralized way and implements a Tor-like protocol that can be used to download content anonymously. By proxying traffic through other nodes, the anonymity of Tor is obtained. You can start a Python script that allows your computer to become a proxy for other users in the network. However, when running this tool for a longer period (a few days), the memory becomes filled with objects, eventually crashing the program because it runs out of memory.
@@ -174,4 +175,24 @@ Meliae contains many more tools to investigate objects and get more interesting 
 
 Meliae can also be combined with other tools such as objgraph. Objgraph can generate graphs that show references between objects. In my next blog post, I will write more about this tool. I hope you enjoyed this blog post and if you have any comments or questions, please let me know.
 
-
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://devos50.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
