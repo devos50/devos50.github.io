@@ -144,7 +144,7 @@ This will generate a `nor.bin` file.
 
 ## Manually Generating the NAND Image
 
-The NAND image is generated is based on the root filesystem included in the IPSW firmware file, albeit heavily modified to bypass various checks. The necessary code can be found in [this repository](https://github.com/devos50/generate-ipod-touch-1g-nand) and be cloned as follows:
+The NAND image is generated based on the root filesystem included in the IPSW firmware file, albeit heavily modified to bypass various checks. The necessary code can be found in [this repository](https://github.com/devos50/generate-ipod-touch-1g-nand) and be cloned as follows:
 
 ```
 git clone https://github.com/devos50/generate-ipod-touch-1g-nand
