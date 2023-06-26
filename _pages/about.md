@@ -9,19 +9,18 @@ profile:
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>Office 1E.420</p>
-    <p>Building 28</p>
-    <p>Van Mourik Broekmanweg 6</p>
-    <p>Delft, The Netherlands</p>
+    <p>Office BC 164</p>
+    <p>BC Building (EPFL Campus)</p>
+    <p>1015 Ecublens</p>
+    <p>Switzerland</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a postdoctoral researcher in the Distributed Systems department of [Delft University of Technology](https://tudelft.nl), focussing on building efficient and scalable decentralized systems.
-My research interests include decentralized systems, distributed systems, electronic markets, and blockchain technology.
-**From the 1st of January 2023, I'll be working as a postdoctoral researcher at EPFL University in Lausanne.**
+I'm a postdoctoral researcher in the Scalable Computing Systems Laboratory of [EPFL University](https://epfl.ch), focussing on building efficient and scalable machine learning systems.
+My research interests include machine learning systems, distributed systems, and blockchain technology.
 
 **Previously:**
 In 2021, I completed my PhD thesis titled [_Decentralization and Disintermediation in Blockchain-based Marketplaces_](https://repository.tudelft.nl/islandora/object/uuid:a4f750b6-5ac5-4709-80c5-71eb71ac7b35), under the supervision of Dick Epema and Johan pouwelse.
