@@ -261,7 +261,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['QEMU', 'Python'] # these tags will be displayed on the front page of your blog
+display_tags: ['QEMU', 'Python', 'Web3', 'Ethereum'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
