@@ -145,7 +145,6 @@ We present MATCH, a decentralized middleware for fair matchmaking in peer-to-pee
   pages={108081},
   year={2021},
   publisher={Elsevier},
-  selected={true},
   website={https://www.sciencedirect.com/science/article/pii/S1389128621001705},
   pdf={1-s2.0-S1389128621001705-main.pdf},
   code={https://github.com/tribler/trustchain-simulator-pysim},
@@ -189,4 +188,42 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   abstract={The landscape of electronic marketplaces has been monopolized by a handful of market operators that have accumulated tremendous power during the last decades. This trend raises concerns about fairness and market manipulation by these operators acting as gatekeepers. These concerns have recently been outlined in the EU Digital Markets Act (DMA). In this work, we highlight how technological logic of separation understood in the framework of decentralization can address manipulation concerns. As a first step, we devise a reference model of electronic marketplaces, containing six functional components, and outline how control over these components enables different manipulative practices by gatekeepers. We identify two dimensions of decentralization that can counterbalance monopolistic abuse of marketplace components. We then present a software implementation of our reference model and demonstrate how decentralization and unbundling of market components can alleviate manipulation and fairness concerns. We end our work with a review of related approaches and conclude that modular and interoperable marketplaces can enable an open ecosystem of fair electronic markets envisioned by the DMA.},
   pdf={1-s2.0-S156742232200103X-main.pdf},
   code={https://github.com/tribler/anydex-core},
+}
+
+@article{de2023descan,
+  abbr={FGCS},
+  title={DeScan: Censorship-resistant indexing and search for Web3},
+  author={de Vos, Martijn and Ishmaev, Georgy and Pouwelse, Johan},
+  journal={Future Generation Computer Systems},
+  volume={152},
+  pages={257--272},
+  year={2023},
+  abstract={The popularity of blockchain technology has bootstrapped many “Web3” applications, e.g., Ethereum and IPFS, that apply distributed ledger technology to store transactions. The amount of transactions generated and stored in such Web3 applications is significant and, in its raw form, usually not searchable by users. Existing Web3 transaction indexing and search engines are predominantly centralized and, therefore, can manipulate search results or censor particular queries. With the proliferation of Web3 transactions and applications, a decentralized and censorship-resistant search primitive is becoming essential. We present DeScan, a decentralized and censorship-resistant indexing and search engine for Web3. Users index their local Web3 transactions using custom rules that output triplets. Generated triplets are bundled in a distributed transaction graph that is searchable by other users. To coordinate search and distribute the storage of the transaction graph over peers in the network, we build upon a Skip Graph (SG) data structure. Since the Skip Graph does not provide any resilience against adversarial peers that censor searches, we propose four modifications to improve its robustness. We implement DeScan and conduct experiments with up to 12800 peers and 10 million Ethereum transactions. Our experiments show that DeScan with our modifications enabled can tolerate 20% adversarial peers and 35% unresponsive peers without disruption. Moreover, we find that searches in DeScan are usually completed well within a second, even when the network grows. Finally, we show that storage and network costs are evenly distributed amongst peers as the network grows.},
+  publisher={Elsevier},
+  pdf={descan.pdf},
+  code={https://github.com/devos50/descan},
+}
+
+@article{de2023deployment,
+  abbr={PERCOM},
+  title={A deployment-first methodology to mechanism design and refinement in distributed systems},
+  author={de Vos, Martijn and Ishmaev, Georgy and Pouwelse, Johan and Roos, Stefanie},
+  booktitle={2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)},
+  pages={472--477},
+  year={2023},
+  organization={IEEE},
+  abstract={Catalyzed by the popularity of blockchain technology, there has recently been a renewed interest in the design, implementation and evaluation of decentralized systems. Most of these systems are intended to be deployed at scale and in heterogeneous environments with real users and unpredictable workloads. Nevertheless, most research in this field evaluates such systems in controlled environments that poorly reflect the complex conditions of real-world environments. In this work, we argue that deployment is crucial to understanding decentralized mechanisms in a real-world environment and an enabler to building more robust and sustainable systems. We highlight the merits of deployment by comparing this approach with other experimental setups and show how our lab applied a deployment-first methodology. We then outline how we use Tribler, our peer-to-peer file-sharing application, to deploy and monitor decentralized mechanisms at scale. We illustrate the application of our methodology by describing a deployment trial in experimental tokenomics. Finally, we summarize four lessons learned from multiple deployment trials where we applied our methodology.},
+  pdf={deployment.pdf}
+}
+
+@article{de2023epidemic,
+  abbr={NEURIPS},
+  title={Epidemic Learning: Boosting Decentralized Learning with Randomized Communication},
+  author={De Vos, Martijn and Farhadkhani, Sadegh and Guerraoui, Rachid and Kermarrec, Anne-Marie and Pires, Rafael and Sharma, Rishi},
+  journal={Advances in neural information processing systems},
+  year={2023},
+  selected={true},
+  abstract={We present Epidemic Learning (EL), a simple yet powerful decentralized learning (DL) algorithm that leverages changing communication topologies to achieve faster model convergence compared to conventional DL approaches. At each round of EL, each node sends its model updates to a random sample of s other nodes (in a system of n nodes). We provide an extensive theoretical analysis of EL, demonstrating that its changing topology culminates in superior convergence properties compared to the state-of-the-art (static and dynamic) topologies. Considering smooth non-convex loss functions, the number of transient iterations for EL, i.e., the rounds required to achieve asymptotic linear speedup, is in O(n3/s2) which outperforms the best-known bound O(n3) by a factor of s2, indicating the benefit of randomized communication for DL. We empirically evaluate EL in a 96-node network and compare its performance with state-of-the-art DL approaches. Our results illustrate that EL converges up to 1.7× quicker than baseline DL algorithms and attains 2.2\% higher accuracy for the same communication volume.},
+  pdf={el.pdf},
+  code={https://github.com/sacs-epfl/decentralizepy}
 }
