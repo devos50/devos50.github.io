@@ -193,7 +193,7 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
 @article{de2023descan,
   abbr={FGCS},
   title={DeScan: Censorship-resistant indexing and search for Web3},
-  author={de Vos, Martijn and Ishmaev, Georgy and Pouwelse, Johan},
+  author={{de Vos}, Martijn and Ishmaev, Georgy and Pouwelse, Johan},
   journal={Future Generation Computer Systems},
   volume={152},
   pages={257--272},
@@ -207,7 +207,7 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
 @article{de2023deployment,
   abbr={PERCOM},
   title={A deployment-first methodology to mechanism design and refinement in distributed systems},
-  author={de Vos, Martijn and Ishmaev, Georgy and Pouwelse, Johan and Roos, Stefanie},
+  author={{de Vos}, Martijn and Ishmaev, Georgy and Pouwelse, Johan and Roos, Stefanie},
   booktitle={2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)},
   pages={472--477},
   year={2023},
@@ -219,11 +219,73 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
 @article{de2023epidemic,
   abbr={NEURIPS},
   title={Epidemic Learning: Boosting Decentralized Learning with Randomized Communication},
-  author={De Vos, Martijn and Farhadkhani, Sadegh and Guerraoui, Rachid and Kermarrec, Anne-Marie and Pires, Rafael and Sharma, Rishi},
+  author={{de Vos}, Martijn and Farhadkhani, Sadegh and Guerraoui, Rachid and Kermarrec, Anne-Marie and Pires, Rafael and Sharma, Rishi},
   journal={Advances in neural information processing systems},
   year={2023},
   selected={true},
   abstract={We present Epidemic Learning (EL), a simple yet powerful decentralized learning (DL) algorithm that leverages changing communication topologies to achieve faster model convergence compared to conventional DL approaches. At each round of EL, each node sends its model updates to a random sample of s other nodes (in a system of n nodes). We provide an extensive theoretical analysis of EL, demonstrating that its changing topology culminates in superior convergence properties compared to the state-of-the-art (static and dynamic) topologies. Considering smooth non-convex loss functions, the number of transient iterations for EL, i.e., the rounds required to achieve asymptotic linear speedup, is in O(n3/s2) which outperforms the best-known bound O(n3) by a factor of s2, indicating the benefit of randomized communication for DL. We empirically evaluate EL in a 96-node network and compare its performance with state-of-the-art DL approaches. Our results illustrate that EL converges up to 1.7× quicker than baseline DL algorithms and attains 2.2\% higher accuracy for the same communication volume.},
   pdf={el.pdf},
   code={https://github.com/sacs-epfl/decentralizepy}
+}
+
+@article{dhasade2023quickdrop,
+  abbr={arXiv},
+  title={QuickDrop: Efficient Federated Unlearning by Integrated Dataset Distillation},
+  author={Dhasade, Akash and Ding, Yaohong and Guo, Song and Kermarrec, Anne-marie and {de Vos}, Martijn and Wu, Leijie},
+  journal={arXiv preprint},
+  year={2023},
+  abstract={Federated Unlearning (FU) aims to delete specific training data from an ML model trained using Federated Learning (FL). We introduce QuickDrop, an efficient and original FU method that utilizes dataset distillation (DD) to accelerate unlearning and drastically reduces computational overhead compared to existing approaches. In QuickDrop, each client uses DD to generate a compact dataset representative of the original training dataset, called a distilled dataset, and uses this compact dataset during unlearning. To unlearn specific knowledge from the global model, QuickDrop has clients execute Stochastic Gradient Ascent with samples from the distilled datasets, thus significantly reducing computational overhead compared to conventional FU methods. We further increase the efficiency of QuickDrop by ingeniously integrating DD into the FL training process. By reusing the gradient updates produced during FL training for DD, the overhead of creating distilled datasets becomes close to negligible. Evaluations on three standard datasets show that, with comparable accuracy guarantees, QuickDrop reduces the duration of unlearning by 463.8x compared to model retraining from scratch and 65.1x compared to existing FU approaches. We also demonstrate the scalability of QuickDrop with 100 clients and show its effectiveness while handling multiple unlearning operations.},
+  arxiv={2311.15603},
+}
+
+@article{nunez2024light,
+  abbr={FGCS},
+  title={Light-HIDRA: Scalable and decentralized resource orchestration in Fog-IoT environments},
+  author={N{\'u}{\~n}ez-G{\'o}mez, Carlos and {de Vos}, Martijn and Decouchant, J{\'e}r{\'e}mie and Pouwelse, Johan and Caminero, Blanca and Carri{\'o}n, Carmen},
+  journal={Future Generation Computer Systems},
+  year={2024},
+  abstract={With the proliferation of Internet of Things (IoT) ecosystems, traditional resource orchestration mechanisms, executed on fog devices, encounter significant scalability, reliability and security challenges. To tackle these challenges, recent decentralized algorithms in Fog-IoT use Distributed Ledger Technologies to orchestrate resources and payments between peers. However, while distributed ledgers provide many desirable properties, their consensus mechanism introduces a performance bottleneck. This paper introduces Light-HIDRA, a consensus-less and decentralized resource orchestration system for Fog-IoT environments. At its core, Light-HIDRA uses Byzantine Reliable Broadcast (BRB) to coordinate actions without centralized control, therefore drastically reducing communication overhead and latency compared to consensus-based solutions. Light-HIDRA coordinates the scheduling and execution of workloads, and securely manages the payments that peers receive for dedicating resources to workloads. Light-HIDRA further increases performance and reduces overhead by grouping peers into distinct domains. We conduct an in-depth analysis of the protocol’s security properties, investigating its efficiency and robustness in diverse situations. We evaluate the performance of Light-HIDRA, highlighting its performance over HIDRA, a state-of-the-art baseline that uses smart contracts. Our experiments demonstrate that Light-HIDRA reduces the bandwidth usage by up to 57x, the latency of workload offloading by up to 142x, and shows superior throughput compared to HIDRA.},
+  pdf={lighthidra.pdf},
+  publisher={Elsevier},
+  code={https://github.com/swarleynunez/HIDRA_IPv8}
+}
+
+@inproceedings{de2024auditer,
+  abbr={AlgoTel},
+  title={Auditer l'{\'e}quit{\'e}: l'union fait-elle la force?},
+  author={{de Vos}, Martijn and Dhasade, Akash and Bourr{\'e}e, Jade Garcia and Kermarrec, Anne-Marie and Le Merrer, Erwan and Rottembourg, Beno{\^\i}t and Tr{\'e}dan, Gilles},
+  booktitle={AlgoTel 2024--26{\`e}mes Rencontres Francophones sur les Aspects Algorithmiques des T{\'e}l{\'e}communications},
+  abstract={Usuellement, les agents qui auditent l’équité des algorithmes les étudient de manière indépendante, avec leurs propres données. Dans nos travaux, nous considérons le cas de plusieurs agents auditant un même algorithme pour atteindre différents objectifs. Les agents ont la possibilité d’influencer l’audit à travers deux leviers : une stratégie de collaboration avec les autres agents, avec ou sans coordination préalable, et le choix d’une méthode d’échantillonnage. Nous étudions les interactions possibles qui en résultent. Nous prouvons que, contre-intuitivement, la coordination peut se faire au détriment de la précision de l’audit, alors que la collaboration non coordonnée conduit généralement à de bons résultats. Des expériences sur des jeux de données réels confirment cette observation, lorsque nous observons que la précision de la collaboration non coordonnée atteint celle de l’échantillonnage collaboratif optimal.},
+  year={2024},
+  pdf={audits.pdf}
+}
+
+@article{de2024fairness,
+  abbr={arXiv},
+  title={Fairness auditing with multi-agent collaboration},
+  author={{de Vos}, Martijn and Dhasade, Akash and Bourr{\'e}e, Jade Garcia and Kermarrec, Anne-Marie and Merrer, Erwan Le and Rottembourg, Benoit and Tredan, Gilles},
+  journal={arXiv preprint},
+  year={2024},
+  abstract={Existing work in fairness audits assumes that agents operate independently. In this paper, we consider the case of multiple agents auditing the same platform for different tasks. Agents have two levers: their collaboration strategy, with or without coordination beforehand, and their sampling method. We theoretically study their interplay when agents operate independently or collaborate. We prove that, surprisingly, coordination can sometimes be detrimental to audit accuracy, whereas uncoordinated collaboration generally yields good results. Experimentation on real-world datasets confirms this observation, as the audit accuracy of uncoordinated collaboration matches that of collaborative optimal sampling.},
+  arxiv={2402.08522}
+}
+
+@article{biswas2024beyond,
+  abbr={arXiv},
+  title={Beyond Noise: Privacy-Preserving Decentralized Learning with Virtual Nodes},
+  author={Biswas, Sayan and Even, Mathieu and Kermarrec, Anne-Marie and Massoulie, Laurent and Pires, Rafael and Sharma, Rishi and {de Vos}, Martijn},
+  journal={arXiv preprint},
+  year={2024},
+  abstract={Decentralized learning (DL) enables collaborative learning without a server and without training data leaving the users' devices. However, the models shared in DL can still be used to infer training data. Conventional privacy defenses such as differential privacy and secure aggregation fall short in effectively safeguarding user privacy in DL. We introduce Shatter, a novel DL approach in which nodes create virtual nodes (VNs) to disseminate chunks of their full model on their behalf. This enhances privacy by (i) preventing attackers from collecting full models from other nodes, and (ii) hiding the identity of the original node that produced a given model chunk. We theoretically prove the convergence of Shatter and provide a formal analysis demonstrating how Shatter reduces the efficacy of attacks compared to when exchanging full models between participating nodes. We evaluate the convergence and attack resilience of Shatter with existing DL algorithms, with heterogeneous datasets, and against three standard privacy attacks, including gradient inversion. Our evaluation shows that Shatter not only renders these privacy attacks infeasible when each node operates 16 VNs but also exhibits a positive impact on model convergence compared to standard DL. This enhanced privacy comes with a manageable increase in communication volume.},
+  arxiv={2404.09536}
+}
+
+@article{dhasade2024harnessing,
+  abbr={arXiv},
+  title={Harnessing Increased Client Participation with Cohort-Parallel Federated Learning},
+  author={Dhasade, Akash and Kermarrec, Anne-Marie and Nguyen, Tuan-Anh and Pires, Rafael and {de Vos}, Martijn},
+  journal={arXiv preprint},
+  arxiv={2405.15644},
+  abstract={Federated Learning (FL) is a machine learning approach where nodes collaboratively train a global model. As more nodes participate in a round of FL, the effectiveness of individual model updates by nodes also diminishes. In this study, we increase the effectiveness of client updates by dividing the network into smaller partitions, or cohorts. We introduce Cohort-Parallel Federated Learning (CPFL): a novel learning approach where each cohort independently trains a global model using FL, until convergence, and the produced models by each cohort are then unified using one-shot Knowledge Distillation (KD) and a cross-domain, unlabeled dataset. The insight behind CPFL is that smaller, isolated networks converge quicker than in a one-network setting where all nodes participate. Through exhaustive experiments involving realistic traces and non-IID data distributions on the CIFAR-10 and FEMNIST image classification tasks, we investigate the balance between the number of cohorts, model accuracy, training time, and compute and communication resources. Compared to traditional FL, CPFL with four cohorts, non-IID data distribution, and CIFAR-10 yields a 1.9x reduction in train time and a 1.3x reduction in resource usage, with a minimal drop in test accuracy.},
+  year={2024}
 }
