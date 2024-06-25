@@ -7,6 +7,15 @@ nav: true
 nav_order: 6
 ---
 
+## Affiliated with EPFL<br/><br/>
+
+### CS723 - Topics on ML Systems (2023)
+
+I have been coordinator during the [Topics on ML Systems](https://parsa.epfl.ch/course-info/cs723/) course given at EPFL during Spring 2023. During the course, we reviewed and discussed state-of-the-art publications on distributed machine learning systems.<br/><br/>
+
+
+## Affiliated with TU Delft<br/><br/>
+
 ### Blockchain Engineering (2022)
 
 For the Blockchain engineering master course at Delft University of Technology, I supervised two groups with ten students in total that worked on atomic swaps and our digital EuroToken. The project progress, meeting notes, and deliverables can be found [here](https://github.com/Tribler/tribler/issues/6774){:target="_blank"} and [here](https://github.com/Tribler/tribler/issues/6782){:target="_blank"}.
