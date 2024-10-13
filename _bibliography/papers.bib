@@ -223,19 +223,20 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   journal={Advances in neural information processing systems},
   year={2023},
   selected={true},
-  abstract={We present Epidemic Learning (EL), a simple yet powerful decentralized learning (DL) algorithm that leverages changing communication topologies to achieve faster model convergence compared to conventional DL approaches. At each round of EL, each node sends its model updates to a random sample of s other nodes (in a system of n nodes). We provide an extensive theoretical analysis of EL, demonstrating that its changing topology culminates in superior convergence properties compared to the state-of-the-art (static and dynamic) topologies. Considering smooth non-convex loss functions, the number of transient iterations for EL, i.e., the rounds required to achieve asymptotic linear speedup, is in O(n3/s2) which outperforms the best-known bound O(n3) by a factor of s2, indicating the benefit of randomized communication for DL. We empirically evaluate EL in a 96-node network and compare its performance with state-of-the-art DL approaches. Our results illustrate that EL converges up to 1.7× quicker than baseline DL algorithms and attains 2.2\% higher accuracy for the same communication volume.},
+  abstract={We present Epidemic Learning (EL), a simple yet powerful decentralized learning (DL) algorithm that leverages changing communication topologies to achieve faster model convergence compared to conventional DL approaches. At each round of EL, each node sends its model updates to a random sample of s other nodes (in a system of n nodes). We provide an extensive theoretical analysis of EL, demonstrating that its changing topology culminates in superior convergence properties compared to the state-of-the-art (static and dynamic) topologies. Considering smooth non-convex loss functions, the number of transient iterations for EL, i.e., the rounds required to achieve asymptotic linear speedup, is in O(n3/s2) which outperforms the best-known bound O(n3) by a factor of s2, indicating the benefit of randomized communication for DL. We empirically evaluate EL in a 96-node network and compare its performance with state-of-the-art DL approaches. Our results illustrate that EL converges up to 1.7x quicker than baseline DL algorithms and attains 2.2% higher accuracy for the same communication volume.},
   pdf={el.pdf},
   code={https://github.com/sacs-epfl/decentralizepy}
 }
 
-@article{dhasade2023quickdrop,
-  abbr={arXiv},
+@inproceedings{dhasade2024quickdrop,
+  abbr={Middleware},
   title={QuickDrop: Efficient Federated Unlearning by Integrated Dataset Distillation},
   author={Dhasade, Akash and Ding, Yaohong and Guo, Song and Kermarrec, Anne-marie and {de Vos}, Martijn and Wu, Leijie},
-  journal={arXiv preprint},
-  year={2023},
-  abstract={Federated Unlearning (FU) aims to delete specific training data from an ML model trained using Federated Learning (FL). We introduce QuickDrop, an efficient and original FU method that utilizes dataset distillation (DD) to accelerate unlearning and drastically reduces computational overhead compared to existing approaches. In QuickDrop, each client uses DD to generate a compact dataset representative of the original training dataset, called a distilled dataset, and uses this compact dataset during unlearning. To unlearn specific knowledge from the global model, QuickDrop has clients execute Stochastic Gradient Ascent with samples from the distilled datasets, thus significantly reducing computational overhead compared to conventional FU methods. We further increase the efficiency of QuickDrop by ingeniously integrating DD into the FL training process. By reusing the gradient updates produced during FL training for DD, the overhead of creating distilled datasets becomes close to negligible. Evaluations on three standard datasets show that, with comparable accuracy guarantees, QuickDrop reduces the duration of unlearning by 463.8x compared to model retraining from scratch and 65.1x compared to existing FU approaches. We also demonstrate the scalability of QuickDrop with 100 clients and show its effectiveness while handling multiple unlearning operations.},
-  arxiv={2311.15603},
+  booktitle={Proceedings of the 25th International Middleware Conference},
+  year={2024},
+  abstract={Federated Unlearning (FU) aims to delete specific training data from an ML model trained using Federated Learning (FL). However, existing FU methods suffer from inefficiencies due to the high costs associated with gradient recomputation and storage. This paper presents QuickDrop, an original and efficient FU approach designed to overcome these limitations. During model training, each client uses QuickDrop to generate a compact synthetic dataset, serving as a compressed representation of the gradient information utilized during training. This synthetic dataset facilitates fast gradient approximation, allowing rapid downstream unlearning at minimal storage cost. To unlearn specific knowledge from the trained model, QuickDrop clients execute stochastic gradient ascent with samples from the synthetic datasets instead of the training dataset. The tiny volume of synthetic data significantly reduces computational overhead compared to conventional FU methods. Evaluations with three standard datasets and five baselines show that, with comparable accuracy guarantees, QuickDrop reduces the duration of unlearning by 463x compared to retraining the model from scratch and 65x-218x compared to prominent FU approaches. QuickDrop supports both class- and client-level unlearning, handles multiple unlearning requests, and supports relearning of previously erased data.},
+  pdf={quickdrop.pdf},
+  code={https://github.com/sacs-epfl/quickdrop}
 }
 
 @article{nunez2024light,
@@ -260,24 +261,26 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   pdf={audits.pdf}
 }
 
-@article{de2024fairness,
-  abbr={arXiv},
+@inproceedings{de2024fairness,
+  abbr={ECAI},
   title={Fairness auditing with multi-agent collaboration},
   author={{de Vos}, Martijn and Dhasade, Akash and Bourr{\'e}e, Jade Garcia and Kermarrec, Anne-Marie and Merrer, Erwan Le and Rottembourg, Benoit and Tredan, Gilles},
-  journal={arXiv preprint},
+  booktitle={Proceedings of the 27th European Conference on Artificial Intelligence},
   year={2024},
-  abstract={Existing work in fairness audits assumes that agents operate independently. In this paper, we consider the case of multiple agents auditing the same platform for different tasks. Agents have two levers: their collaboration strategy, with or without coordination beforehand, and their sampling method. We theoretically study their interplay when agents operate independently or collaborate. We prove that, surprisingly, coordination can sometimes be detrimental to audit accuracy, whereas uncoordinated collaboration generally yields good results. Experimentation on real-world datasets confirms this observation, as the audit accuracy of uncoordinated collaboration matches that of collaborative optimal sampling.},
-  arxiv={2402.08522}
+  abstract={Existing work in fairness auditing assumes that each audit is performed independently. In this paper, we consider multiple agents working together, each auditing the same platform for different tasks. Agents have two levers: their collaboration strategy, with or without coordination beforehand, and their strategy for sampling appropriate data points. We theoretically compare the interplay of these levers. Our main findings are that (i) collaboration is generally beneficial for accurate audits, (ii) basic sampling methods often prove to be effective, and (iii) counter-intuitively, extensive coordination on queries often deteriorates audits accuracy as the number of agents increases. Experiments on three large datasets confirm our theoretical results. Our findings motivate collaboration during fairness audits of platforms that use ML models for decision-making.},
+  code={https://github.com/sacs-epfl/fairness-audits-with-collaboration},
+  pdf={audits_ecai.pdf}
 }
 
-@article{biswas2024beyond,
-  abbr={arXiv},
+@inproceedings{biswas2024beyond,
+  abbr={PETS},
   title={Beyond Noise: Privacy-Preserving Decentralized Learning with Virtual Nodes},
   author={Biswas, Sayan and Even, Mathieu and Kermarrec, Anne-Marie and Massoulie, Laurent and Pires, Rafael and Sharma, Rishi and {de Vos}, Martijn},
-  journal={arXiv preprint},
-  year={2024},
+  booktitle={Proceedings of the Privacy Enhancing Technologies Symposium},
+  year={2025},
   abstract={Decentralized learning (DL) enables collaborative learning without a server and without training data leaving the users' devices. However, the models shared in DL can still be used to infer training data. Conventional privacy defenses such as differential privacy and secure aggregation fall short in effectively safeguarding user privacy in DL. We introduce Shatter, a novel DL approach in which nodes create virtual nodes (VNs) to disseminate chunks of their full model on their behalf. This enhances privacy by (i) preventing attackers from collecting full models from other nodes, and (ii) hiding the identity of the original node that produced a given model chunk. We theoretically prove the convergence of Shatter and provide a formal analysis demonstrating how Shatter reduces the efficacy of attacks compared to when exchanging full models between participating nodes. We evaluate the convergence and attack resilience of Shatter with existing DL algorithms, with heterogeneous datasets, and against three standard privacy attacks, including gradient inversion. Our evaluation shows that Shatter not only renders these privacy attacks infeasible when each node operates 16 VNs but also exhibits a positive impact on model convergence compared to standard DL. This enhanced privacy comes with a manageable increase in communication volume.},
-  arxiv={2404.09536}
+  pdf={shatter.pdf},
+  code={https://github.com/sacs-epfl/shatter}
 }
 
 @article{dhasade2024harnessing,
@@ -288,4 +291,45 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   arxiv={2405.15644},
   abstract={Federated Learning (FL) is a machine learning approach where nodes collaboratively train a global model. As more nodes participate in a round of FL, the effectiveness of individual model updates by nodes also diminishes. In this study, we increase the effectiveness of client updates by dividing the network into smaller partitions, or cohorts. We introduce Cohort-Parallel Federated Learning (CPFL): a novel learning approach where each cohort independently trains a global model using FL, until convergence, and the produced models by each cohort are then unified using one-shot Knowledge Distillation (KD) and a cross-domain, unlabeled dataset. The insight behind CPFL is that smaller, isolated networks converge quicker than in a one-network setting where all nodes participate. Through exhaustive experiments involving realistic traces and non-IID data distributions on the CIFAR-10 and FEMNIST image classification tasks, we investigate the balance between the number of cohorts, model accuracy, training time, and compute and communication resources. Compared to traditional FL, CPFL with four cohorts, non-IID data distribution, and CIFAR-10 yields a 1.9x reduction in train time and a 1.3x reduction in resource usage, with a minimal drop in test accuracy.},
   year={2024}
+}
+
+@inproceedings{guerraoui2024peerswap,
+  abbr={SRDS},
+  title={PeerSwap: A Peer-Sampler with Randomness Guarantees},
+  author={Guerraoui, Rachid and Kermarrec, Anne-Marie and Kucherenko, Anastasiia and Pinot, Rafael and {de Vos}, Martijn},
+  booktitle={Proceedings of the 43rd Symposium on Reliable Distributed Systems},
+  year={2024},
+  abstract={The ability of a peer-to-peer (P2P) system to effectively host decentralized applications often relies on the availability of a peer-sampling service, which provides each participant with a random sample of other peers. Despite the practical effectiveness of existing peer samplers, their ability to produce random samples within a reasonable time frame remains poorly understood from a theoretical standpoint. This paper contributes to bridging this gap by introducing PeerSwap, a peer-sampling protocol with provable randomness guarantees. We establish execution time bounds for PeerSwap, demonstrating its ability to scale effectively with the network size. We prove that PeerSwap maintains the fixed structure of the communication graph while allowing sequential peer position swaps within this graph. We do so by showing that PeerSwap is a specific instance of an interchange process, a renowned model for particle movement analysis. Leveraging this mapping, we derive execution time bounds, expressed as a function of the network size N. Depending on the network structure, this time can be as low as a polylogarithmic function of N, highlighting the efficiency of PeerSwap. We implement PeerSwap and conduct numerical evaluations using regular graphs with varying connectivity and containing up to 32768 (2^15) peers. Our evaluation demonstrates that PeerSwap quickly provides peers with uniform random samples of other peers.},
+  pdf={peerswap.pdf},
+  code={https://github.com/sacs-epfl/peerswap}
+}
+
+@article{biswas2024fair,
+  abbr={arXiv},
+  title={Fair Decentralized Learning},
+  author={Biswas, Sayan and Kermarrec, Anne-Marie and Sharma, Rhisi and Trinca, Thibaud and {de Vos}, Martijn},
+  journal={arXiv preprint},
+  arxiv={2410.02541},
+  abstract={Decentralized learning (DL) is an emerging approach that enables nodes to collaboratively train a machine learning model without sharing raw data. In many application domains, such as healthcare, this approach faces challenges due to the high level of heterogeneity in the training data's feature space. Such feature heterogeneity lowers model utility and negatively impacts fairness, particularly for nodes with under-represented training data. In this paper, we introduce \textsc{Facade}, a clustering-based DL algorithm specifically designed for fair model training when the training data exhibits several distinct features. The challenge of \textsc{Facade} is to assign nodes to clusters, one for each feature, based on the similarity in the features of their local data, without requiring individual nodes to know apriori which cluster they belong to. \textsc{Facade} (1) dynamically assigns nodes to their appropriate clusters over time, and (2) enables nodes to collaboratively train a specialized model for each cluster in a fully decentralized manner. We theoretically prove the convergence of \textsc{Facade}, implement our algorithm, and compare it against three state-of-the-art baselines. Our experimental results on three datasets demonstrate the superiority of our approach in terms of model accuracy and fairness compared to all three competitors. Compared to the best-performing baseline, \textsc{Facade} on the CIFAR-10 dataset also reduces communication costs by 32.3% to reach a target accuracy when cluster sizes are imbalanced.},
+  year={2024}
+}
+
+@article{de2021decentralization,
+  abbr={PhD Thesis},
+  title={Decentralization and Disintermediation in Blockchain-Based Marketplaces},
+  author={{de Vos}, Martijn},
+  year={2021},
+  website={https://research.tudelft.nl/en/publications/decentralization-and-disintermediation-in-blockchain-based-market},
+  pdf={phd_thesis.pdf}
+}
+
+@inproceedings{guerraoui2024peerswap,
+  abbr={IPDPSW},
+  title={Energy-Aware Decentralized Learning with Intermittent Model Training},
+  author={{de Vos}, Martijn and Dhasade, Akash and Dini, Paolo and Guerra, Elia and Kermarrec, Anne-Marie and Miozzo, Marco and Pires, Rafael and Sharma, Rishi},
+  booktitle={Proceedings of the International Parallel and Distributed Processing Symposium Workshops},
+  year={2024},
+  abstract={SkipTrain is a novel Decentralized Learning (DL) algorithm, which minimizes energy consumption in decentralized learning by strategically skipping some training rounds and substituting them with synchronization rounds. These training-silent periods, besides saving energy, also allow models to better mix and produce models with superior accuracy than typical DL algorithms. Our empirical evaluations with 256 nodes demonstrate that SkipTrain reduces energy consumption by 50% and increases model accuracy by up to 12% compared to D-PSGD, the conventional DL algorithm.},
+  pdf={skiptrain_abstract.pdf},
+  website={https://ieeexplore.ieee.org/abstract/document/10596415}
 }
