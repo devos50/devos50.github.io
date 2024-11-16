@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-description: Distributed Systems - Faculty Electrical Engineering, Mathematics and Computer Science - Delft University of Technology
+description: Scalable Computing Systems - IC - EPFL
 
 profile:
   align: right
@@ -37,7 +36,7 @@ You can find my curriculum vitae [here](assets/pdf/resume.pdf).
 
 **Services:**
 
-- 2024: [METIS](http://netys.net/2217-2/) (keynote speaker), [NETYS](http://netys.net/committees/) (PC), [NEURIPS](https://neurips.cc/Conferences/2024) (PC)
+- 2024: [METIS](http://netys.net/2217-2/) (keynote speaker), [NETYS](http://netys.net/committees/) (PC), [NEURIPS](https://neurips.cc/Conferences/2024) (PC), [WWW](https://www2025.thewebconf.org) (PC), [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [IEEE JSAC](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/co-design-communication-computing-and-control-industrial-cyber)
 - 2023: [TPDS](https://www.computer.org/csdl/journal/td), [DICG](https://dicg-workshop.github.io/2022/) (organizer), [SRDS](https://srds-conference.org/committee/program.html) (PC)
 - 2022: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), [DICG](https://dicg-workshop.github.io/2022/) (organizer)
 - 2021: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks)
