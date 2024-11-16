@@ -4,7 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - devos50/qemu-ios
   - devos50/vlc-pyqt5-example
+  - sacs-epfl/decentralized-learning-simulator
   - tribler/tribler
   - tribler/py-ipv8
   - tribler/bami

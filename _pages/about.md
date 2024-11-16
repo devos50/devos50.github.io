@@ -24,7 +24,7 @@ Our lab particularly focusses on distributed machine learning techniques, both w
 My research interests include machine learning systems, distributed and decentralized systems, and distributed ledger technology.
 
 **Previously:**
-In 2021, I completed my PhD thesis titled [_Decentralization and Disintermediation in Blockchain-based Marketplaces_](https://repository.tudelft.nl/islandora/object/uuid:a4f750b6-5ac5-4709-80c5-71eb71ac7b35), under the supervision of Dick Epema and Johan pouwelse.
+In 2021, I completed my PhD thesis titled [_Decentralization and Disintermediation in Blockchain-based Marketplaces_](https://repository.tudelft.nl/islandora/object/uuid:a4f750b6-5ac5-4709-80c5-71eb71ac7b35), under the supervision of Dick Epema and Johan Pouwelse.
 
 I completed my master thesis at Delft University of Technology in 2016. In my master thesis titled [_Identifying and Managing Technical Debt in Complex Distributed Systems_](https://repository.tudelft.nl/islandora/object/uuid:e5a817a4-ce0a-4dd3-afd4-d70660b63d16), I improved various aspects of our long-running academic software, named [Tribler](https://tribler.org).
 
