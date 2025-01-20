@@ -32,7 +32,7 @@ I also have a small company named [CodeUp](https://code-up.nl). My primary busin
 
 Besides my professional activities, I enjoy travelling, snowboarding, bouldering and reverse engineering software. One of my projects involve the emulation of legacy Apple devices, which software can be found [here](https://github.com/devos50/qemu-ios).
 
-You can find my curriculum vitae [here](assets/pdf/resume.pdf).
+You can find my curriculum vitae [here](assets/pdf/resume.pdf){:target="_blank"}.
 
 **Services:**
 
