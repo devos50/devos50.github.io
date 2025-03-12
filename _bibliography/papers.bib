@@ -283,16 +283,6 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   code={https://github.com/sacs-epfl/shatter}
 }
 
-@article{dhasade2024harnessing,
-  abbr={arXiv},
-  title={Harnessing Increased Client Participation with Cohort-Parallel Federated Learning},
-  author={Dhasade, Akash and Kermarrec, Anne-Marie and Nguyen, Tuan-Anh and Pires, Rafael and {de Vos}, Martijn},
-  journal={arXiv preprint},
-  arxiv={2405.15644},
-  abstract={Federated Learning (FL) is a machine learning approach where nodes collaboratively train a global model. As more nodes participate in a round of FL, the effectiveness of individual model updates by nodes also diminishes. In this study, we increase the effectiveness of client updates by dividing the network into smaller partitions, or cohorts. We introduce Cohort-Parallel Federated Learning (CPFL): a novel learning approach where each cohort independently trains a global model using FL, until convergence, and the produced models by each cohort are then unified using one-shot Knowledge Distillation (KD) and a cross-domain, unlabeled dataset. The insight behind CPFL is that smaller, isolated networks converge quicker than in a one-network setting where all nodes participate. Through exhaustive experiments involving realistic traces and non-IID data distributions on the CIFAR-10 and FEMNIST image classification tasks, we investigate the balance between the number of cohorts, model accuracy, training time, and compute and communication resources. Compared to traditional FL, CPFL with four cohorts, non-IID data distribution, and CIFAR-10 yields a 1.9x reduction in train time and a 1.3x reduction in resource usage, with a minimal drop in test accuracy.},
-  year={2024}
-}
-
 @inproceedings{guerraoui2024peerswap,
   abbr={SRDS},
   title={PeerSwap: A Peer-Sampler with Randomness Guarantees},
@@ -309,9 +299,9 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   title={Fair Decentralized Learning},
   author={Biswas, Sayan and Kermarrec, Anne-Marie and Sharma, Rhisi and Trinca, Thibaud and {de Vos}, Martijn},
   booktitle={Proceedings of the 3rd IEEE Conference on Secure and Trustworthy Machine Learning},
-  arxiv={2410.02541},
-  abstract={Decentralized learning (DL) is an emerging approach that enables nodes to collaboratively train a machine learning model without sharing raw data. In many application domains, such as healthcare, this approach faces challenges due to the high level of heterogeneity in the training data's feature space. Such feature heterogeneity lowers model utility and negatively impacts fairness, particularly for nodes with under-represented training data. In this paper, we introduce \textsc{Facade}, a clustering-based DL algorithm specifically designed for fair model training when the training data exhibits several distinct features. The challenge of \textsc{Facade} is to assign nodes to clusters, one for each feature, based on the similarity in the features of their local data, without requiring individual nodes to know apriori which cluster they belong to. \textsc{Facade} (1) dynamically assigns nodes to their appropriate clusters over time, and (2) enables nodes to collaboratively train a specialized model for each cluster in a fully decentralized manner. We theoretically prove the convergence of \textsc{Facade}, implement our algorithm, and compare it against three state-of-the-art baselines. Our experimental results on three datasets demonstrate the superiority of our approach in terms of model accuracy and fairness compared to all three competitors. Compared to the best-performing baseline, \textsc{Facade} on the CIFAR-10 dataset also reduces communication costs by 32.3% to reach a target accuracy when cluster sizes are imbalanced.},
+  abstract={Decentralized learning (DL) is an emerging approach that enables nodes to collaboratively train a machine learning model without sharing raw data. In many application domains, such as healthcare, this approach faces challenges due to the high level of heterogeneity in the training data's feature space. Such feature heterogeneity lowers model utility and negatively impacts fairness, particularly for nodes with under-represented training data. In this paper, we introduce Facade, a clustering-based DL algorithm specifically designed for fair model training when the training data exhibits several distinct features. The challenge of Facade is to assign nodes to clusters, one for each feature, based on the similarity in the features of their local data, without requiring individual nodes to know apriori which cluster they belong to. Facade (1) dynamically assigns nodes to their appropriate clusters over time, and (2) enables nodes to collaboratively train a specialized model for each cluster in a fully decentralized manner. We theoretically prove the convergence of Facade, implement our algorithm, and compare it against three state-of-the-art baselines. Our experimental results on three datasets demonstrate the superiority of our approach in terms of model accuracy and fairness compared to all three competitors. Compared to the best-performing baseline, Facade on the CIFAR-10 dataset also reduces communication costs by 32.3% to reach a target accuracy when cluster sizes are imbalanced.},
   year={2025},
+  pdf={facade.pdf},
   code={https://github.com/sacs-epfl/facade}
 }
 
@@ -343,4 +333,59 @@ abbr={arXiv},
   abstract={Decentralized learning (DL) is an emerging technique that allows nodes on the web to collaboratively train machine learning models without sharing raw data. Dealing with stragglers, i.e., nodes with slower compute or communication than others, is a key challenge in DL. We present DivShare, a novel asynchronous DL algorithm that achieves fast model convergence in the presence of communication stragglers. DivShare achieves this by having nodes fragment their models into parameter subsets and send, in parallel to computation, each subset to a random sample of other nodes instead of sequentially exchanging full models. The transfer of smaller fragments allows more efficient usage of the collective bandwidth and enables nodes with slow network links to quickly contribute with at least some of their model parameters. By theoretically proving the convergence of DivShare, we provide, to the best of our knowledge, the first formal proof of convergence for a DL algorithm that accounts for the effects of asynchronous communication with delays. We experimentally evaluate DivShare against two state-of-the-art DL baselines, AD-PSGD and Swift, and with two standard datasets, CIFAR-10 and MovieLens. We find that DivShare with communication stragglers lowers time-to-accuracy by up to 3.9x compared to AD-PSGD on the CIFAR-10 dataset. Compared to baselines, DivShare also achieves up to 19.4% better accuracy and 9.5% lower test loss on the CIFAR-10 and MovieLens datasets, respectively.},
   year={2024},
   arxiv={2410.12918},
+}
+
+@inproceedings{dhasade2025practical,
+  abbr={EuroMLSys},
+  title={Practical Federated Learning without a Server},
+  author={Dhasade, Akash and Kermarrec, Anne-Marie and Lavoie, Erick and Pouwelse, Johan and Sharma, Rishi and {de Vos}, Martijn},
+  booktitle={Proceedings of the 5th Workshop on Machine Learning and Systems},
+  year={2025},
+  abstract={Federated Learning (FL) enables end-user devices to collaboratively train ML models without sharing raw data, thereby preserving data privacy. In FL, a central parameter server coordinates the learning process by iteratively aggregating the trained models received from clients. Yet, deploying a central server is not always feasible due to hardware unavailability, infrastructure constraints, or operational costs. We present Plexus, a fully decentralized FL system for large networks that operates without the drawbacks originating from having a central server. Plexus distributes the responsibilities of model aggregation and sampling among participating nodes while avoiding network-wide coordination. We evaluate Plexus using realistic traces for compute speed, pairwise latency and network capacity. Our experiments on three common learning tasks and with up to 1000 nodes empirically show that Plexus reduces time-to-accuracy by 1.4-1.6x, communication volume by 15.8-292x and training resources needed for convergence by 30.5-77.9x compared to conventional decentralized learning algorithms.},
+  pdf={plexus.pdf},
+  code={https://github.com/sacs-epfl/plexus},
+}
+
+@inproceedings{dhasade2025harnessing,
+  abbr={EuroMLSys},
+  title={Harnessing Increased Client Participation with Cohort-Parallel Federated Learning},
+  author={Dhasade, Akash and Kermarrec, Anne-Marie and Nguyen, Tuan-Ahn and Pires, Rafael and {de Vos}, Martijn},
+  booktitle={Proceedings of the 5th Workshop on Machine Learning and Systems},
+  year={2025},
+  abstract={Federated learning (FL) is a machine learning approach where nodes collaboratively train a global model. As more nodes participate in a round of FL, the effectiveness of individual model updates by nodes also diminishes. In this study, we increase the effectiveness of client updates by dividing the network into smaller partitions, or cohorts. We introduce Cohort-Parallel Federated Learning (CPFL): a novel learning approach where each cohort independently trains a global model using FL, until convergence, and the produced models by each cohort are then unified using knowledge distillation. The insight behind CPFL is that smaller, isolated networks converge quicker than in a one-network setting where all nodes participate. Through exhaustive experiments involving realistic traces and non-IID data distributions on the CIFAR-10 and FEMNIST image classification tasks, we investigate the balance between the number of cohorts, model accuracy, training time, and compute resources. Compared to traditional FL, CPFL with four cohorts, non-IID data distribution, and CIFAR-10 yields a 1.9x reduction in train time and a 1.3x reduction in resource usage, with a minimal drop in test accuracy.},
+  pdf={cpfl.pdf},
+  code={https://github.com/sacs-epfl/cpfl},
+}
+
+@inproceedings{balmau2025moe,
+  abbr={EuroMLSys},
+  title={Accelerating MoE Model Inference with Expert Sharding},
+  author={Balmau, Oana and Kermarrec, Anne-Marie and Pires, Rafael and {Loureiro Espírito Santo}, André and {de Vos}, Martijn and Vujasinovic, Milos},
+  booktitle={Proceedings of the 5th Workshop on Machine Learning and Systems},
+  year={2025},
+  abstract={Mixture of experts (MoE) models achieve state-of-the-art results in language modeling but suffer from inefficient hardware utilization due to imbalanced token routing and communication overhead. While prior work has focused on optimizing MoE training and decoder architectures, inference for encoder-based MoE models in a multi-GPU with expert parallelism setting remains underexplored. We introduce MoEShard, an inference system that achieves perfect load balancing through tensor sharding of MoE experts. Unlike existing approaches that rely on heuristic capacity factors or drop tokens, MoEShard evenly distributes computation across GPUs and ensures full token retention, maximizing utilization regardless of routing skewness. We achieve this through a strategic row- and column-wise decomposition of expert matrices. This reduces idle time and avoids bottlenecks caused by imbalanced expert assignments. Furthermore, MoEShard minimizes kernel launches by fusing decomposed expert computations, significantly improving throughput. We evaluate MoEShard against DeepSpeed on encoder-based architectures, demonstrating speedups of up to 6.4× in time to first token (TTFT). Our results show that tensor sharding, when properly applied to experts, is a viable and effective strategy for efficient MoE inference.},
+  pdf={moeshard.pdf},
+  code={https://github.com/sacs-epfl/moe-inference},
+}
+
+@inproceedings{bergman2025proximity,
+  abbr={EuroMLSys},
+  title={Leveraging Approximate Caching for Faster Retrieval-Augmented Generation},
+  author={Bergman, Shai and Ji, Zhang and Kermarrec, Anne-Marie and Petrescu, Diana and Pires, Rafael and Randl, Mathis and {de Vos}, Martijn},
+  booktitle={Proceedings of the 5th Workshop on Machine Learning and Systems},
+  year={2025},
+  abstract={Retrieval-augmented generation (RAG) enhances the reliability of large language model (LLM) answers by integrating external knowledge. However, RAG increases the end-to-end inference time since looking for relevant documents from large vector databases is computationally expensive. To address this, we introduce Proximity, an approximate key-value cache that optimizes the RAG workflow by leveraging similarities in user queries. Instead of treating each query independently, Proximity reuses previously retrieved documents when similar queries appear, reducing reliance on expensive vector database lookups. We evaluate Proximity on the MMLU and MedRAG benchmarks, demonstrating that it significantly improves retrieval efficiency while maintaining response accuracy. Proximity reduces retrieval latency by up to 59% while maintaining accuracy and lowers the computational burden on the vector database. We also experiment with different similarity thresholds and quantify the trade-off between speed and recall. Our work shows that approximate caching is a viable and effective strategy for optimizing RAG-based systems.},
+  pdf={proximity.pdf},
+  code={https://github.com/sacs-epfl/proximity},
+}
+
+@inproceedings{guerraoui2025ragroute,
+  abbr={EuroMLSys},
+  title={Efficient Federated Search for Retrieval-Augmented Generation},
+  author={Guerraoui, Rachid and Kermarrec, Anne-Marie and Petrescu, Diana and Pires, Rafael and Randl, Mathis and {de Vos}, Martijn},
+  booktitle={Proceedings of the 5th Workshop on Machine Learning and Systems},
+  year={2025},
+  abstract={Large language models (LLMs) have demonstrated remarkable capabilities across various domains but remain susceptible to hallucinations and inconsistencies, limiting their reliability. Retrieval-augmented generation (RAG) mitigates these issues by grounding model responses in external knowledge sources. Existing RAG workflows often leverage a single vector database, which is impractical in the common setting where information is distributed across multiple repositories. We introduce RAGRoute, a novel mechanism for federated RAG search. RAGRoute dynamically selects relevant data sources at query time using a lightweight neural network classifier. By not querying every data source, this approach significantly reduces query overhead, improves retrieval efficiency, and minimizes the retrieval of irrelevant information. We evaluate RAGRoute using the MIRAGE and MMLU benchmarks and demonstrate its effectiveness in retrieving relevant documents while reducing the number of queries. RAGRoute reduces the total number of queries up to 77.5% and communication volume up to 76.2%.},
+  pdf={ragroute.pdf},
+  code={https://github.com/sacs-epfl/ragroute},
 }
