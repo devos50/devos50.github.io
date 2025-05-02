@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am a postdoctoral researcher in [the Scalable Computing Systems (SACS) Laboratory](https://www.epfl.ch/labs/sacs/) of [EPFL University](https://epfl.ch), focussing on building efficient and scalable machine learning systems.
-Our lab particularly focusses on distributed machine learning techniques, both within data centers (e.g., LLM inference and training), as well as ML over the Internet (federated and decentralized learning).
+Our lab particularly focusses on distributed machine learning techniques, both within data centers (e.g., LLM inference, fine-tuning and training), as well as ML over the Internet (federated and decentralized learning).
 My research interests include machine learning systems, distributed and decentralized systems, and distributed ledger technology.
 
 **Previously:**
@@ -30,12 +30,13 @@ I completed my master thesis at Delft University of Technology in 2016. In my ma
 
 I also have a small company named [CodeUp](https://code-up.nl). My primary business activity is the development of mobile application (iOS/Android) and web/email hosting. You can find more information about these activities on the website of [CodeUp](https://code-up.nl).
 
-Besides my professional activities, I enjoy travelling, snowboarding, bouldering and reverse engineering software. One of my projects involve the emulation of legacy Apple devices, which software can be found [here](https://github.com/devos50/qemu-ios).
+Besides my professional activities, I enjoy travelling, snowboarding, bouldering, running and reverse engineering software. One of my projects involve the emulation of legacy Apple devices, which software can be found [here](https://github.com/devos50/qemu-ios).
 
 You can find my curriculum vitae [here](assets/pdf/resume.pdf){:target="_blank"}.
 
 **Services:**
 
+- 2025: [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine)
 - 2024: [METIS](http://netys.net/2217-2/) (keynote speaker), [NETYS](http://netys.net/committees/) (PC), [NEURIPS](https://neurips.cc/Conferences/2024) (PC), [WWW](https://www2025.thewebconf.org) (PC), [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [IEEE JSAC](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/co-design-communication-computing-and-control-industrial-cyber), [PerConAI](https://perconai.iit.cnr.it) (PC)
 - 2023: [TPDS](https://www.computer.org/csdl/journal/td), [DICG](https://dicg-workshop.github.io/2022/) (organizer), [SRDS](https://srds-conference.org/committee/program.html) (PC)
 - 2022: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), [DICG](https://dicg-workshop.github.io/2022/) (organizer)
