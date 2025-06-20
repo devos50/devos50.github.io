@@ -325,14 +325,16 @@ We present UniCon, a universal and scalable infrastructure for digital asset man
   website={https://ieeexplore.ieee.org/abstract/document/10596415}
 }
 
-@article{biswas2024boosting,
-abbr={arXiv},
+@inproceedings{biswas2024boosting,
+abbr={WWW},
   title={Boosting Asynchronous Decentralized Learning with Model Fragmentation},
   author={Biswas, Sayan and Kermarrec, Anne-Marie and Marouani, Alexis and Pires, Rafael and Sharma, Rishi and {de Vos}, Martijn},
-  journal={arXiv preprint},
+  booktitle={Proceedings of the ACM on Web Conference},
   abstract={Decentralized learning (DL) is an emerging technique that allows nodes on the web to collaboratively train machine learning models without sharing raw data. Dealing with stragglers, i.e., nodes with slower compute or communication than others, is a key challenge in DL. We present DivShare, a novel asynchronous DL algorithm that achieves fast model convergence in the presence of communication stragglers. DivShare achieves this by having nodes fragment their models into parameter subsets and send, in parallel to computation, each subset to a random sample of other nodes instead of sequentially exchanging full models. The transfer of smaller fragments allows more efficient usage of the collective bandwidth and enables nodes with slow network links to quickly contribute with at least some of their model parameters. By theoretically proving the convergence of DivShare, we provide, to the best of our knowledge, the first formal proof of convergence for a DL algorithm that accounts for the effects of asynchronous communication with delays. We experimentally evaluate DivShare against two state-of-the-art DL baselines, AD-PSGD and Swift, and with two standard datasets, CIFAR-10 and MovieLens. We find that DivShare with communication stragglers lowers time-to-accuracy by up to 3.9x compared to AD-PSGD on the CIFAR-10 dataset. Compared to baselines, DivShare also achieves up to 19.4% better accuracy and 9.5% lower test loss on the CIFAR-10 and MovieLens datasets, respectively.},
-  year={2024},
-  arxiv={2410.12918},
+  year={2025},
+  pdf={divshare.pdf},
+  website={https://dl.acm.org/doi/abs/10.1145/3696410.3714872},
+  code={https://github.com/sacs-epfl/divshare},
 }
 
 @inproceedings{dhasade2025practical,
@@ -397,4 +399,29 @@ abbr={arXiv},
   booktitle={Proceedings of the 42nd International Conference on Machine Learning},
   year={2025},
   abstract={The rapid adoption of ML decision-making systems across products and services has led to a set of regulations on how such systems should behave and be built. Among all the technical challenges to enforcing these regulations, one crucial, yet under-explored problem is the risk of manipulation while these systems are being audited for fairness. This manipulation occurs when a platform deliberately alters its answers to a regulator to pass an audit without modifying its answers to other users. In this paper, we introduce a novel approach to manipulation-proof auditing by taking into account the auditor's prior knowledge of the task solved by the platform. We first demonstrate that regulators must not rely on public priors (e.g. a public dataset), as platforms could easily fool the auditor in such cases. We then formally establish the conditions under which an auditor can prevent audit manipulations using prior knowledge about the ground truth. Finally, our experiments with two standard datasets exemplify the maximum level of unfairness a platform can hide before being detected as malicious. Our formalization and generalization of manipulation-proof auditing with a prior opens up new research directions for more robust fairness audits.},
+  code={https://github.com/grodino/merlin},
+  pdf={audits2_icml.pdf},
 }
+
+@article{sharma2025collaborative,
+  abbr={arXiv},
+  title={Collaborative Agentic AI Needs Interoperability Across Ecosystems},
+  author={Sharma, Rishi and {de Vos}, Martijn and Chari, Pradyumna and Raskar, Ramesh and Kermarrec, Anne-Marie},
+  journal={arXiv preprint},
+  number={arXiv:2505.21550},
+  year={2025},
+  arxiv={2505.21550},
+  abstract={Collaborative agentic AI is projected to transform entire industries by enabling AI-powered agents to autonomously perceive, plan, and act within digital environments. Yet, current solutions in this field are all built in isolation, and we are rapidly heading toward a landscape of fragmented, incompatible ecosystems. In this position paper, we argue that interoperability, achieved by the adoption of minimal standards, is essential to ensure open, secure, web-scale, and widely-adopted agentic ecosystems. To this end, we devise a minimal architectural foundation for collaborative agentic AI, named Web of Agents, which is composed of four components: agent-to-agent messaging, interaction interoperability, state management, and agent discovery. Web of Agents adopts existing standards and reuses existing infrastructure where possible. With Web of Agents, we take the first but critical step toward interoperable agentic systems and offer a pragmatic path forward before ecosystem fragmentation becomes the norm.}
+  }
+  
+  @article{doucet2025harmoeny,
+  abbr={arXiv},
+  title={HarMoEny: Efficient Multi-GPU Inference of MoE Models},
+  author={Doucet, Zachary and Sharma, Rishi and {de Vos}, Martijn and Pires, Rafael and Kermarrec, Anne-Marie and Balmau, Oana},
+  journal={arXiv preprint},
+  number={arXiv:2506.12417},
+  year={2025},
+  arxiv={22506.12417},
+  abstract={Mixture-of-Experts (MoE) models offer computational efficiency during inference by activating only a subset of specialized experts for a given input. This enables efficient model scaling on multi-GPU systems that use expert parallelism without compromising performance. However, load imbalance among experts and GPUs introduces waiting times, which can significantly increase inference latency. To address this challenge, we propose HarMoEny, a novel solution to address MoE load imbalance through two simple techniques: (i) dynamic token redistribution to underutilized GPUs and (ii) asynchronous prefetching of experts from the system to GPU memory. These techniques achieve a near-perfect load balance among experts and GPUs and mitigate delays caused by overloaded GPUs. We implement HarMoEny and compare its latency and throughput with four MoE baselines using real-world and synthetic datasets. Under heavy load imbalance, HarMoEny increases throughput by 37%-70% and reduces time-to-first-token by 34%-41%, compared to the next-best baseline. Moreover, our ablation study demonstrates that HarMoEny's scheduling policy reduces the GPU idling time by up to 84% compared to the baseline policies.},
+  code={https://github.com/sacs-epfl/harmoeny},
+  }
