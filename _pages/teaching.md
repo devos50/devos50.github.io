@@ -9,6 +9,10 @@ nav_order: 6
 
 ## Affiliated with EPFL<br/><br/>
 
+### CS460 - Systems for Data Management and Data Science (2025)
+
+I have been head TA during the [Systems for Data Management and Data Science](https://edu.epfl.ch/coursebook/en/systems-for-data-management-and-data-science-CS-460) course given at EPFL during Spring 2025 where I coordinated several aspects of the course. Furthermore, I gave a lecture on distributed key-value stores and the CAP theorem.<br/><br/>
+
 ### CS723 - Topics on ML Systems (2023)
 
 I have been coordinator during the [Topics on ML Systems](https://parsa.epfl.ch/course-info/cs723/) course given at EPFL during Spring 2023. During the course, we reviewed and discussed state-of-the-art publications on distributed machine learning systems.<br/><br/>
