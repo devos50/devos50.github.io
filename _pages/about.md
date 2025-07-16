@@ -36,7 +36,7 @@ You can find my curriculum vitae [here](assets/pdf/resume.pdf){:target="_blank"}
 
 **Services:**
 
-- 2025: [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine), [Cluster Computing](https://link.springer.com/journal/10586), [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing)
+- 2025: [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine), [Cluster Computing](https://link.springer.com/journal/10586), [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing), [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications), [NEURIPS](https://neurips.cc/Conferences) (PC).
 - 2024: [METIS](http://netys.net/2217-2/) (keynote speaker), [NETYS](http://netys.net/committees/) (PC), [NEURIPS](https://neurips.cc/Conferences/2024) (PC), [WWW](https://www2025.thewebconf.org) (PC), [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [IEEE JSAC](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/co-design-communication-computing-and-control-industrial-cyber), [PerConAI](https://perconai.iit.cnr.it) (PC)
 - 2023: [TPDS](https://www.computer.org/csdl/journal/td), [DICG](https://dicg-workshop.github.io/2022/) (organizer), [SRDS](https://srds-conference.org/committee/program.html) (PC)
 - 2022: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), [DICG](https://dicg-workshop.github.io/2022/) (organizer)
