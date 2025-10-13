@@ -414,7 +414,7 @@ abbr={WWW},
   abstract={Collaborative agentic AI is projected to transform entire industries by enabling AI-powered agents to autonomously perceive, plan, and act within digital environments. Yet, current solutions in this field are all built in isolation, and we are rapidly heading toward a landscape of fragmented, incompatible ecosystems. In this position paper, we argue that interoperability, achieved by the adoption of minimal standards, is essential to ensure open, secure, web-scale, and widely-adopted agentic ecosystems. To this end, we devise a minimal architectural foundation for collaborative agentic AI, named Web of Agents, which is composed of four components: agent-to-agent messaging, interaction interoperability, state management, and agent discovery. Web of Agents adopts existing standards and reuses existing infrastructure where possible. With Web of Agents, we take the first but critical step toward interoperable agentic systems and offer a pragmatic path forward before ecosystem fragmentation becomes the norm.}
   }
   
-  @article{doucet2025harmoeny,
+@article{doucet2025harmoeny,
   abbr={arXiv},
   title={HarMoEny: Efficient Multi-GPU Inference of MoE Models},
   author={Doucet, Zachary and Sharma, Rishi and {de Vos}, Martijn and Pires, Rafael and Kermarrec, Anne-Marie and Balmau, Oana},
@@ -424,4 +424,25 @@ abbr={WWW},
   arxiv={22506.12417},
   abstract={Mixture-of-Experts (MoE) models offer computational efficiency during inference by activating only a subset of specialized experts for a given input. This enables efficient model scaling on multi-GPU systems that use expert parallelism without compromising performance. However, load imbalance among experts and GPUs introduces waiting times, which can significantly increase inference latency. To address this challenge, we propose HarMoEny, a novel solution to address MoE load imbalance through two simple techniques: (i) dynamic token redistribution to underutilized GPUs and (ii) asynchronous prefetching of experts from the system to GPU memory. These techniques achieve a near-perfect load balance among experts and GPUs and mitigate delays caused by overloaded GPUs. We implement HarMoEny and compare its latency and throughput with four MoE baselines using real-world and synthetic datasets. Under heavy load imbalance, HarMoEny increases throughput by 37%-70% and reduces time-to-first-token by 34%-41%, compared to the next-best baseline. Moreover, our ablation study demonstrates that HarMoEny's scheduling policy reduces the GPU idling time by up to 84% compared to the baseline policies.},
   code={https://github.com/sacs-epfl/harmoeny},
-  }
+}
+
+@article{biswas2025practical,
+  abbr={arXiv},
+  title={Practical and Private Hybrid ML Inference with Fully Homomorphic Encryption},
+  author={Biswas, Sayan and Chartier, Philippe and Dhasade, Akash and Jurien, Tom and Kerriou, David and Kerrmarec, Anne-Marie and Lemou, Mohammed and Tranie, Franklin and {de Vos}, Martijn and Vujasinovic, Milos},
+  journal={arXiv preprint},
+  number={arXiv:2509.01253},
+  year={2025},
+  arxiv={2509.01253v1},
+  abstract={In contemporary cloud-based services, protecting users' sensitive data and ensuring the confidentiality of the server's model are critical. Fully homomorphic encryption (FHE) enables inference directly on encrypted inputs, but its practicality is hindered by expensive bootstrapping and inefficient approximations of non-linear activations. We introduce Safhire, a hybrid inference framework that executes linear layers under encryption on the server while offloading non-linearities to the client in plaintext. This design eliminates bootstrapping, supports exact activations, and significantly reduces computation. To safeguard model confidentiality despite client access to intermediate outputs, Safhire applies randomized shuffling, which obfuscates intermediate values and makes it practically impossible to reconstruct the model. To further reduce latency, Safhire incorporates advanced optimizations such as fast ciphertext packing and partial extraction. Evaluations on multiple standard models and datasets show that Safhire achieves 1.5X - 10.5X lower inference latency than Orion, a state-of-the-art baseline, with manageable communication overhead and comparable accuracy, thereby establishing the practicality of hybrid FHE inference.},
+}
+
+@inproceedings{bergman2025middleware,
+  abbr={Middleware},
+  title={Leveraging Approximate Caching for Faster Retrieval-Augmented Generation},
+  author={Bergman, Shai and Kermarrec, Anne-Marie and Petrescu, Diana and Pires, Rafael and Randl, Mathis and {de Vos}, Martijn and Ji, Zhang},
+  booktitle={Proceedings of the 26th International Middleware Conference},
+  year={2025},
+  abstract={Retrieval-augmented generation (RAG) enhances the reliability of large language model (LLM) answers by integrating external knowledge. However, RAG increases the end-to-end inference time since looking for relevant documents from large vector databases is computationally expensive. To address this, we introduce Proximity, an approximate key-value cache that optimizes the RAG workflow by leveraging similarities in user queries. Instead of treating each query independently, Proximity reuses previously retrieved documents when similar queries appear, reducing reliance on expensive vector database lookups. We evaluate Proximity on the MMLU and MedRAG benchmarks, demonstrating that it significantly improves retrieval efficiency while maintaining response accuracy. Proximity reduces retrieval latency by up to 59% while maintaining accuracy and lowers the computational burden on the vector database. We also experiment with different similarity thresholds and quantify the trade-off between speed and recall. Our work shows that approximate caching is a viable and effective strategy for optimizing RAG-based systems.},
+  code={https://github.com/sacs-epfl/proximity},
+}

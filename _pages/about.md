@@ -30,7 +30,7 @@ latest_posts:
 
 I am a postdoctoral researcher in [the Scalable Computing Systems (SACS) Laboratory](https://www.epfl.ch/labs/sacs/) of [EPFL University](https://epfl.ch), focussing on building efficient and scalable machine learning systems.
 Our lab particularly focusses on distributed machine learning techniques, both within data centers (e.g., LLM inference, fine-tuning and training), as well as ML over the Internet (federated and decentralized learning).
-My research interests include machine learning systems, distributed and decentralized systems, and distributed ledger technology.
+My research interests include machine learning systems, multi-agent LLM systems, distributed and decentralized systems, and distributed ledger technology.
 
 **Previously:**
 In 2021, I completed my PhD thesis titled [_Decentralization and Disintermediation in Blockchain-based Marketplaces_](https://repository.tudelft.nl/islandora/object/uuid:a4f750b6-5ac5-4709-80c5-71eb71ac7b35), under the supervision of Dick Epema and Johan Pouwelse.
@@ -45,7 +45,7 @@ You can find my curriculum vitae [here](assets/pdf/resume.pdf){:target="_blank"}
 
 **Services:**
 
-- 2025: [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine), [Cluster Computing](https://link.springer.com/journal/10586), [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing), [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications), [NEURIPS](https://neurips.cc/Conferences) (PC).
+- 2025: [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [Computers in Biology and Medicine](https://www.sciencedirect.com/journal/computers-in-biology-and-medicine), [Cluster Computing](https://link.springer.com/journal/10586), [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing), [Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications), [NEURIPS](https://neurips.cc/Conferences) (PC), [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), [SatML](https://satml.org) (PC).
 - 2024: [METIS](http://netys.net/2217-2/) (keynote speaker), [NETYS](http://netys.net/committees/) (PC), [NEURIPS](https://neurips.cc/Conferences/2024) (PC), [WWW](https://www2025.thewebconf.org) (PC), [FGCS](https://www.sciencedirect.com/journal/future-generation-computer-systems), [IEEE JSAC](https://www.comsoc.org/publications/journals/ieee-jsac/cfp/co-design-communication-computing-and-control-industrial-cyber), [PerConAI](https://perconai.iit.cnr.it) (PC)
 - 2023: [TPDS](https://www.computer.org/csdl/journal/td), [DICG](https://dicg-workshop.github.io/2022/) (organizer), [SRDS](https://srds-conference.org/committee/program.html) (PC)
 - 2022: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), [DICG](https://dicg-workshop.github.io/2022/) (organizer)
