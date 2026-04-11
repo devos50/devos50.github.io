@@ -38,8 +38,8 @@ repo_trophies:
 # To use a different instance or service for displaying GitHub stats and trophies,
 # update these URLs. These are used in the repository templates.
 external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
-  github_profile_trophy_url: https://github-profile-trophy.vercel.app
+  github_readme_stats_url: https://github-readme-stats-fast.vercel.app
+  github_profile_trophy_url: https://github-profile-trophy-sigma-one.vercel.app
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -85,7 +85,7 @@ flickr_id: # your flickr id
 github_username: devos50 # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
+inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
