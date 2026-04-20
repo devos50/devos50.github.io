@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-04-20'
 papers:
+  w2gzvWEAAAAJ:35N4QoGY0k4C:
+    citations: 0
+    title: 'HARMOENY: Efficient Inference of MoE Models'
+    year: '2026'
   w2gzvWEAAAAJ:3fE2CSJIrl8C:
     citations: 10
     title: 'ASTANA: Practical string deobfuscation for Android applications using program slicing'
@@ -22,7 +26,7 @@ papers:
     title: 'XChange: A Universal Mechanism for Asset Exchange between Permissioned Blockchains'
     year: '2021'
   w2gzvWEAAAAJ:9ZlFYXVOiuMC:
-    citations: 42
+    citations: 43
     title: 'Epidemic learning: Boosting decentralized learning with randomized communication'
     year: '2023'
   w2gzvWEAAAAJ:GnPB-g6toBAC:
@@ -90,7 +94,7 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 545
+    citations: 546
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
