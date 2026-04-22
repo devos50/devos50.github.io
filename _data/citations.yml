@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-20'
+  last_updated: '2026-04-22'
 papers:
   w2gzvWEAAAAJ:35N4QoGY0k4C:
     citations: 0
@@ -42,7 +42,7 @@ papers:
     title: 'Mosaic Learning: A Framework for Decentralized Learning with Model Fragmentation'
     year: '2026'
   w2gzvWEAAAAJ:KlAtU1dfN6UC:
-    citations: 10
+    citations: 11
     title: 'BRISTLE: Decentralized Federated Learning in Byzantine, Non-iid Environments'
     year: '2021'
   w2gzvWEAAAAJ:L8Ckcad2t8MC:
@@ -94,7 +94,7 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 546
+    citations: 547
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
@@ -118,7 +118,7 @@ papers:
     title: Color up your life!
     year: '2013'
   w2gzvWEAAAAJ:ZeXyd9-uunAC:
-    citations: 0
+    citations: 1
     title: Harnessing Increased Client Participation with Cohort-Parallel Federated Learning
     year: '2025'
   w2gzvWEAAAAJ:Zph67rFs4hoC:
@@ -138,7 +138,7 @@ papers:
     title: A Deployment-First Methodology to Mechanism Design and Refinement in Distributed Systems
     year: '2023'
   w2gzvWEAAAAJ:blknAaTinKkC:
-    citations: 13
+    citations: 15
     title: Leveraging approximate caching for faster retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:d1gkVwhDpl0C:
@@ -206,7 +206,7 @@ papers:
     title: Decentralizing components of electronic markets to prevent gatekeeping and manipulation
     year: '2022'
   w2gzvWEAAAAJ:r0BpntZqJG4C:
-    citations: 11
+    citations: 12
     title: 'Quickdrop: Efficient federated unlearning via synthetic data generation'
     year: '2024'
   w2gzvWEAAAAJ:roLk4NBRz8UC:
