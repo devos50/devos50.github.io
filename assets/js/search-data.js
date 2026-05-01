@@ -172,6 +172,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-efficient-federated-search-for-retrieval-augmented-generation-using-lightweight-routing-has-been-accepted-for-publication-in-the-dais-26-conference",
           title: 'Our paper Efficient Federated Search for Retrieval-Augmented Generation using Lightweight Routing has been...',
           description: "",
+          section: "News",},{id: "news-our-position-paper-position-collaborative-agentic-ai-needs-interoperability-across-ecosystems-has-been-accepted-in-the-icml-26-conference",
+          title: 'Our position paper Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems has been...',
+          description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
@@ -237,7 +240,7 @@ ninja.data = [{
         title: 'ResearchGate',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.researchgate.net/profile/Martijn-De-Vos/", "_blank");
+          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Martijn-De-Vos/", "_blank");
         },
       },{
         id: 'social-x',
