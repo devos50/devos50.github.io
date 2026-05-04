@@ -1,8 +1,12 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-04'
 papers:
-  w2gzvWEAAAAJ:35N4QoGY0k4C:
+  w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
+    title: 'Orbit: Efficient Agentic Inference using Priority Scheduling'
+    year: '2026'
+  w2gzvWEAAAAJ:35N4QoGY0k4C:
+    citations: 7
     title: 'HARMOENY: Efficient Inference of MoE Models'
     year: '2026'
   w2gzvWEAAAAJ:3fE2CSJIrl8C:
@@ -21,8 +25,12 @@ papers:
     citations: 3
     title: 'Contrib: Universal and decentralized accounting in shared-resource systems'
     year: '2020'
+  w2gzvWEAAAAJ:70eg2SAEIzsC:
+    citations: 0
+    title: Efficient Federated Search for Retrieval-Augmented Generation using Lightweight Routing
+    year: '2025'
   w2gzvWEAAAAJ:8k81kl-MbHgC:
-    citations: 14
+    citations: 15
     title: 'XChange: A Universal Mechanism for Asset Exchange between Permissioned Blockchains'
     year: '2021'
   w2gzvWEAAAAJ:9ZlFYXVOiuMC:
@@ -34,9 +42,9 @@ papers:
     title: Collaborative agentic AI needs interoperability across ecosystems
     year: '2025'
   w2gzvWEAAAAJ:JV2RwH3_ST0C:
-    citations: 0
+    citations: 1
     title: DiLoCo-SWARM
-    year: Unknown Year
+    year: '2025'
   w2gzvWEAAAAJ:J_g5lzvAfSwC:
     citations: 0
     title: 'Mosaic Learning: A Framework for Decentralized Learning with Model Fragmentation'
@@ -73,10 +81,6 @@ papers:
     citations: 0
     title: Effective LoRA Adapter Routing using Task Representations
     year: '2026'
-  w2gzvWEAAAAJ:O3NaXMp0MMsC:
-    citations: 7
-    title: 'HarMoEny: Efficient Multi-GPU Inference of MoE Models'
-    year: '2025'
   w2gzvWEAAAAJ:QIV2ME_5wuYC:
     citations: 21
     title: 'Quickdrop: Efficient federated unlearning by integrated dataset distillation'
@@ -94,11 +98,11 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 547
+    citations: 550
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
-    citations: 289
+    citations: 290
     title: 'TrustChain: A Sybil-resistant scalable blockchain'
     year: '2020'
   w2gzvWEAAAAJ:W7OEmFMy1HYC:
@@ -138,7 +142,7 @@ papers:
     title: A Deployment-First Methodology to Mechanism Design and Refinement in Distributed Systems
     year: '2023'
   w2gzvWEAAAAJ:blknAaTinKkC:
-    citations: 15
+    citations: 18
     title: Leveraging approximate caching for faster retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:d1gkVwhDpl0C:
@@ -189,8 +193,12 @@ papers:
     citations: 0
     title: "2024 43rd International Symposium on Reliable Distributed Systems (SRDS)| 979-8-3315-3003-7/24/$31.00\xA9 2024 IEEE| DOI: 10.1109/SRDS64841. 2024.00046"
     year: Unknown Year
+  w2gzvWEAAAAJ:ldfaerwXgEUC:
+    citations: 0
+    title: 'The Cost of Expertise: Understanding MoE Decode Performance'
+    year: '2026'
   w2gzvWEAAAAJ:mVmsd5A6BfQC:
-    citations: 2
+    citations: 3
     title: 'Light-Hidra: Scalable and Decentralized Resource Orchestration in Fog-Iot Environments'
     year: '2024'
   w2gzvWEAAAAJ:ns9cj8rnVeAC:
