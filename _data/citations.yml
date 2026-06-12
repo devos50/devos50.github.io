@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-12'
 papers:
   w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -27,8 +27,8 @@ papers:
     year: '2020'
   w2gzvWEAAAAJ:70eg2SAEIzsC:
     citations: 0
-    title: Efficient Federated Search for Retrieval-Augmented Generation using Lightweight Routing
-    year: '2025'
+    title: Efficient Federated Search for Retrieval-Augmented Generation Using Lightweight Routing
+    year: '2026'
   w2gzvWEAAAAJ:8k81kl-MbHgC:
     citations: 16
     title: 'XChange: A Universal Mechanism for Asset Exchange between Permissioned Blockchains'
@@ -38,7 +38,7 @@ papers:
     title: 'Epidemic learning: Boosting decentralized learning with randomized communication'
     year: '2023'
   w2gzvWEAAAAJ:GnPB-g6toBAC:
-    citations: 7
+    citations: 8
     title: Collaborative agentic AI needs interoperability across ecosystems
     year: '2025'
   w2gzvWEAAAAJ:JV2RwH3_ST0C:
@@ -66,7 +66,7 @@ papers:
     title: 'Your Neighbors Know: Leveraging Local Neighborhoods for Backdoor Detection in Decentralized Learning'
     year: '2026'
   w2gzvWEAAAAJ:M3NEmzRMIkIC:
-    citations: 22
+    citations: 23
     title: Efficient federated search for retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:M3ejUd6NZC8C:
@@ -102,11 +102,11 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 554
+    citations: 557
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
-    citations: 297
+    citations: 296
     title: 'TrustChain: A Sybil-resistant scalable blockchain'
     year: '2020'
   w2gzvWEAAAAJ:W7OEmFMy1HYC:
@@ -146,7 +146,7 @@ papers:
     title: A Deployment-First Methodology to Mechanism Design and Refinement in Distributed Systems
     year: '2023'
   w2gzvWEAAAAJ:blknAaTinKkC:
-    citations: 23
+    citations: 24
     title: Leveraging approximate caching for faster retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:d1gkVwhDpl0C:
@@ -174,7 +174,7 @@ papers:
     title: 'Match: A decentralized middleware for fair matchmaking in peer-to-peer markets'
     year: '2020'
   w2gzvWEAAAAJ:iH-uZ7U-co4C:
-    citations: 17
+    citations: 18
     title: Noiseless privacy-preserving decentralized learning
     year: '2024'
   w2gzvWEAAAAJ:isC4tDSrTZIC:
@@ -218,7 +218,7 @@ papers:
     title: Decentralizing components of electronic markets to prevent gatekeeping and manipulation
     year: '2022'
   w2gzvWEAAAAJ:r0BpntZqJG4C:
-    citations: 12
+    citations: 13
     title: 'Quickdrop: Efficient federated unlearning via synthetic data generation'
     year: '2024'
   w2gzvWEAAAAJ:roLk4NBRz8UC:
