@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-07-10'
 papers:
   w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
     title: 'Orbit: Efficient Agentic Inference using Priority Scheduling'
     year: '2026'
   w2gzvWEAAAAJ:35N4QoGY0k4C:
-    citations: 7
+    citations: 8
     title: 'HARMOENY: Efficient Inference of MoE Models'
     year: '2026'
   w2gzvWEAAAAJ:3fE2CSJIrl8C:
-    citations: 10
+    citations: 11
     title: 'ASTANA: Practical string deobfuscation for Android applications using program slicing'
     year: '2021'
   w2gzvWEAAAAJ:4DMP91E08xMC:
@@ -38,7 +38,7 @@ papers:
     title: 'Epidemic learning: Boosting decentralized learning with randomized communication'
     year: '2023'
   w2gzvWEAAAAJ:GnPB-g6toBAC:
-    citations: 9
+    citations: 10
     title: Collaborative agentic AI needs interoperability across ecosystems
     year: '2025'
   w2gzvWEAAAAJ:JV2RwH3_ST0C:
@@ -66,11 +66,11 @@ papers:
     title: 'Your Neighbors Know: Leveraging Local Neighborhoods for Backdoor Detection in Decentralized Learning'
     year: '2026'
   w2gzvWEAAAAJ:M3NEmzRMIkIC:
-    citations: 24
+    citations: 27
     title: Efficient federated search for retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:M3ejUd6NZC8C:
-    citations: 45
+    citations: 47
     title: 'Gromit: Benchmarking the Performance and Scalability of Blockchain Systems'
     year: '2022'
   w2gzvWEAAAAJ:MXK_kJrjxJIC:
@@ -78,7 +78,7 @@ papers:
     title: 'Contrib: Maintaining fairness in decentralized big tech alternatives by accounting work'
     year: '2021'
   w2gzvWEAAAAJ:NMxIlDl6LWMC:
-    citations: 9
+    citations: 11
     title: Accelerating moe model inference with expert sharding
     year: '2025'
   w2gzvWEAAAAJ:NaGl4SEjCO4C:
@@ -86,11 +86,11 @@ papers:
     title: Effective LoRA Adapter Routing using Task Representations
     year: '2026'
   w2gzvWEAAAAJ:QIV2ME_5wuYC:
-    citations: 22
+    citations: 24
     title: 'Quickdrop: Efficient federated unlearning by integrated dataset distillation'
     year: '2023'
   w2gzvWEAAAAJ:RGFaLdJalmkC:
-    citations: 5
+    citations: 6
     title: Optimizing Agentic Workflows using Meta-tools
     year: '2026'
   w2gzvWEAAAAJ:RHpTSmoSYBkC:
@@ -102,7 +102,7 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 562
+    citations: 565
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
@@ -118,7 +118,7 @@ papers:
     title: Real-time Money Routing by Trusting Strangers with your Funds
     year: '2018'
   w2gzvWEAAAAJ:YFjsv_pBGBYC:
-    citations: 3
+    citations: 5
     title: Robust ML Auditing using Prior Knowledge
     year: '2025'
   w2gzvWEAAAAJ:YsMSGLbcyi4C:
@@ -213,6 +213,10 @@ papers:
     citations: 1
     title: Practical and private hybrid ML inference with fully homomorphic encryption
     year: '2025'
+  w2gzvWEAAAAJ:pqnbT2bcN3wC:
+    citations: 0
+    title: 'Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems'
+    year: Unknown Year
   w2gzvWEAAAAJ:qUcmZB5y_30C:
     citations: 4
     title: Energy-aware decentralized learning with intermittent model training
@@ -222,7 +226,7 @@ papers:
     title: Decentralizing components of electronic markets to prevent gatekeeping and manipulation
     year: '2022'
   w2gzvWEAAAAJ:r0BpntZqJG4C:
-    citations: 14
+    citations: 15
     title: 'Quickdrop: Efficient federated unlearning via synthetic data generation'
     year: '2024'
   w2gzvWEAAAAJ:roLk4NBRz8UC:
