@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-13'
 papers:
   w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -82,7 +82,7 @@ papers:
     title: Accelerating moe model inference with expert sharding
     year: '2025'
   w2gzvWEAAAAJ:NaGl4SEjCO4C:
-    citations: 1
+    citations: 2
     title: Effective LoRA Adapter Routing using Task Representations
     year: '2026'
   w2gzvWEAAAAJ:QIV2ME_5wuYC:
@@ -102,11 +102,11 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 565
+    citations: 566
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
-    citations: 297
+    citations: 298
     title: 'TrustChain: A Sybil-resistant scalable blockchain'
     year: '2020'
   w2gzvWEAAAAJ:W7OEmFMy1HYC:
