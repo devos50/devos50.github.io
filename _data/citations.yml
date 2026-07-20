@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-20'
 papers:
   w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
     title: 'Orbit: Efficient Agentic Inference using Priority Scheduling'
     year: '2026'
   w2gzvWEAAAAJ:35N4QoGY0k4C:
-    citations: 8
+    citations: 9
     title: 'HARMOENY: Efficient Inference of MoE Models'
     year: '2026'
   w2gzvWEAAAAJ:3fE2CSJIrl8C:
@@ -90,7 +90,7 @@ papers:
     title: 'Quickdrop: Efficient federated unlearning by integrated dataset distillation'
     year: '2023'
   w2gzvWEAAAAJ:RGFaLdJalmkC:
-    citations: 6
+    citations: 7
     title: Optimizing Agentic Workflows using Meta-tools
     year: '2026'
   w2gzvWEAAAAJ:RHpTSmoSYBkC:
@@ -102,7 +102,7 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 566
+    citations: 567
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
@@ -138,7 +138,7 @@ papers:
     title: A blockchain-based micro-economy of bandwidth tokens
     year: '2018'
   w2gzvWEAAAAJ:_Qo2XoVZTnwC:
-    citations: 10
+    citations: 11
     title: Boosting asynchronous decentralized learning with model fragmentation
     year: '2025'
   w2gzvWEAAAAJ:aqlVkmm33-oC:
@@ -178,7 +178,7 @@ papers:
     title: 'Match: A decentralized middleware for fair matchmaking in peer-to-peer markets'
     year: '2020'
   w2gzvWEAAAAJ:iH-uZ7U-co4C:
-    citations: 19
+    citations: 20
     title: Noiseless privacy-preserving decentralized learning
     year: '2024'
   w2gzvWEAAAAJ:isC4tDSrTZIC:
@@ -226,7 +226,7 @@ papers:
     title: Decentralizing components of electronic markets to prevent gatekeeping and manipulation
     year: '2022'
   w2gzvWEAAAAJ:r0BpntZqJG4C:
-    citations: 15
+    citations: 16
     title: 'Quickdrop: Efficient federated unlearning via synthetic data generation'
     year: '2024'
   w2gzvWEAAAAJ:roLk4NBRz8UC:
@@ -247,5 +247,5 @@ papers:
     year: '2019'
   w2gzvWEAAAAJ:vV6vV6tmYwMC:
     citations: 2
-    title: 'RIVA: Leveraging LLM Agents for Reliable Configuration Drift Detection'
+    title: 'Riva: Leveraging llm agents for reliable configuration drift detection'
     year: '2026'
