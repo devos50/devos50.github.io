@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-07-24'
 papers:
   w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -34,11 +34,11 @@ papers:
     title: 'XChange: A Universal Mechanism for Asset Exchange between Permissioned Blockchains'
     year: '2021'
   w2gzvWEAAAAJ:9ZlFYXVOiuMC:
-    citations: 46
+    citations: 47
     title: 'Epidemic learning: Boosting decentralized learning with randomized communication'
     year: '2023'
   w2gzvWEAAAAJ:GnPB-g6toBAC:
-    citations: 10
+    citations: 11
     title: Collaborative agentic AI needs interoperability across ecosystems
     year: '2025'
   w2gzvWEAAAAJ:JV2RwH3_ST0C:
@@ -102,7 +102,7 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 567
+    citations: 568
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
@@ -118,7 +118,7 @@ papers:
     title: Real-time Money Routing by Trusting Strangers with your Funds
     year: '2018'
   w2gzvWEAAAAJ:YFjsv_pBGBYC:
-    citations: 5
+    citations: 7
     title: Robust ML Auditing using Prior Knowledge
     year: '2025'
   w2gzvWEAAAAJ:YsMSGLbcyi4C:
@@ -146,7 +146,7 @@ papers:
     title: A Deployment-First Methodology to Mechanism Design and Refinement in Distributed Systems
     year: '2023'
   w2gzvWEAAAAJ:blknAaTinKkC:
-    citations: 25
+    citations: 26
     title: Leveraging approximate caching for faster retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:d1gkVwhDpl0C:
@@ -154,7 +154,7 @@ papers:
     title: 'Paintrix: Color up your life!'
     year: '2013'
   w2gzvWEAAAAJ:dhFuZR0502QC:
-    citations: 3
+    citations: 4
     title: Fairness auditing with multi-agent collaboration
     year: '2024'
   w2gzvWEAAAAJ:e5wmG9Sq2KIC:
@@ -242,7 +242,7 @@ papers:
     title: The fifteen year struggle of decentralizing privacy-enhancing technology
     year: '2014'
   w2gzvWEAAAAJ:ufrVoPGSRksC:
-    citations: 5
+    citations: 6
     title: 'DevID: Blockchain-based Portfolios for Software Developers'
     year: '2019'
   w2gzvWEAAAAJ:vV6vV6tmYwMC:
