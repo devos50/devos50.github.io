@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-31'
 papers:
   w2gzvWEAAAAJ:2P1L_qKh6hAC:
     citations: 0
     title: 'Orbit: Efficient Agentic Inference using Priority Scheduling'
     year: '2026'
   w2gzvWEAAAAJ:35N4QoGY0k4C:
-    citations: 9
+    citations: 10
     title: 'HARMOENY: Efficient Inference of MoE Models'
     year: '2026'
   w2gzvWEAAAAJ:3fE2CSJIrl8C:
@@ -34,15 +34,11 @@ papers:
     title: 'XChange: A Universal Mechanism for Asset Exchange between Permissioned Blockchains'
     year: '2021'
   w2gzvWEAAAAJ:9ZlFYXVOiuMC:
-    citations: 50
+    citations: 52
     title: 'Epidemic learning: Boosting decentralized learning with randomized communication'
     year: '2023'
-  w2gzvWEAAAAJ:GnPB-g6toBAC:
-    citations: 12
-    title: Collaborative agentic AI needs interoperability across ecosystems
-    year: '2025'
   w2gzvWEAAAAJ:HoB7MX3m0LUC:
-    citations: 0
+    citations: 1
     title: A Unified Benchmark for Privacy-preserving Vector Search
     year: '2026'
   w2gzvWEAAAAJ:JV2RwH3_ST0C:
@@ -106,11 +102,11 @@ papers:
     title: 'Catapults to the Rescue: Accelerating Vector Search by Exploiting Query Locality'
     year: '2026'
   w2gzvWEAAAAJ:Se3iqnhoufwC:
-    citations: 572
+    citations: 573
     title: A novel decentralized platform for peer-to-peer energy trading market with blockchain technology
     year: '2021'
   w2gzvWEAAAAJ:Tyk-4Ss8FVUC:
-    citations: 298
+    citations: 299
     title: 'TrustChain: A Sybil-resistant scalable blockchain'
     year: '2020'
   w2gzvWEAAAAJ:W7OEmFMy1HYC:
@@ -146,7 +142,7 @@ papers:
     title: A Deployment-First Methodology to Mechanism Design and Refinement in Distributed Systems
     year: '2023'
   w2gzvWEAAAAJ:blknAaTinKkC:
-    citations: 28
+    citations: 29
     title: Leveraging approximate caching for faster retrieval-augmented generation
     year: '2025'
   w2gzvWEAAAAJ:d1gkVwhDpl0C:
@@ -166,7 +162,7 @@ papers:
     title: Efficient and Robust Online Learning to Rank in Decentralized Systems
     year: '2026'
   w2gzvWEAAAAJ:hC7cP41nSMkC:
-    citations: 5
+    citations: 6
     title: 'Peerswap: A peer-sampler with randomness guarantees'
     year: '2024'
   w2gzvWEAAAAJ:hMod-77fHWUC:
@@ -214,7 +210,7 @@ papers:
     title: Practical and private hybrid ML inference with fully homomorphic encryption
     year: '2025'
   w2gzvWEAAAAJ:pqnbT2bcN3wC:
-    citations: 0
+    citations: 12
     title: 'Position: Collaborative Agentic AI Needs Interoperability Across Ecosystems'
     year: Unknown Year
   w2gzvWEAAAAJ:qUcmZB5y_30C:
@@ -226,11 +222,11 @@ papers:
     title: Decentralizing components of electronic markets to prevent gatekeeping and manipulation
     year: '2022'
   w2gzvWEAAAAJ:r0BpntZqJG4C:
-    citations: 18
+    citations: 20
     title: 'QuickDrop: Efficient federated unlearning via synthetic data generation'
     year: '2024'
   w2gzvWEAAAAJ:roLk4NBRz8UC:
-    citations: 4
+    citations: 5
     title: 'XChange: A Blockchain-based Mechanism for Generic Asset Trading In Resource-constrained Environments'
     year: '2020'
   w2gzvWEAAAAJ:u-x6o8ySG0sC:
@@ -246,6 +242,6 @@ papers:
     title: 'DevID: Blockchain-based Portfolios for Software Developers'
     year: '2019'
   w2gzvWEAAAAJ:vV6vV6tmYwMC:
-    citations: 2
+    citations: 4
     title: 'Riva: Leveraging llm agents for reliable configuration drift detection'
     year: '2026'
